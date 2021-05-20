@@ -7,6 +7,13 @@ font-weight: bold;
 
 }
 
+
+.comingsoon {
+ font-size:1200%;
+
+}
+
+
 .divoddtop
 {
 	width:45%;
@@ -22,7 +29,7 @@ font-weight: bold;
 	width:45%;
 	
    padding-right:1%;
-	margin-left:50%;
+	margin-left:52%;
 }
 
 .divodd,.diveven

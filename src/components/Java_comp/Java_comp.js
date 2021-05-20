@@ -64,27 +64,17 @@ const Cts=()=>(
 
 	);
 const page2=()=>(
-	<div className={styles.contenteven}>
-              <h3 class="headingeven">No But yes!</h3>
-              <p class="contenteven"> Java does not support multiple inheritance classes. So can we say java doesnt support Multiple inheritance? Not really.
-              Java supports multiple inheritance of interfaces and also mixed inheritance of multiple interface and a single class. So, its a Yes!
-              </p>
-              </div>
+	 <div className={styles.comingsoon}>
+         <center><p>Comming Soon!</p></center>
+         </div>    
 
 
 	);
 	const page3=()=>(
-	<div className={styles.contenteven}>
-              <h3 class="headingeven">Abstract but subtle!</h3>
-              <img src={code1} alt="error" className={styles.img} />
-              <pre class="contenteven"> 
-                 
-                  This code does not throw an error as the method a which is of same signature as the one in 
-                  class A is defined and is inherited along with the interface in class B. So, class B takes
-                  that a method as the over ridden copy of the  method in interface i. extend always comes 
-                  before implements."
-              </pre>
-              </div>
+	 <div className={styles.comingsoon}>
+         <center><p>Comming Soon!</p></center>
+         </div>    
+
 
 
 	);
