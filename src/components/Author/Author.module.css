@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+.author
+{
+	margin-top:2%;
+
+display:block;
+width:70%;
+height:50%; 
+background-color: lightblue;
+color:black;
+display:block;
+width:99%;
+padding-left:50%;
+margin-top:0%;
+padding:1%;
+font-size:120%;
+float:right   ;
+padding-bottom:1%;
+}
+
+.authorimg
+{
+
+border-radius:5%;
+float:right;
+
+width:10%;
+height:10%;
+padding-top:1%;
+
+
+
+}
+.authorwords
+{   float:right;
+    width:70%;
+    margin-bottom:0%;
+	padding-top:5%;
+	margin-top:0%;
+
+	font-family: 'Pangolin';
+}

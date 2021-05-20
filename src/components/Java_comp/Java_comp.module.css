@@ -1,0 +1,36 @@
+.headingodd,.headingeven
+{
+
+font-weight: bold;
+
+
+
+}
+
+
+.divodd,.diveven
+{
+
+
+font-family: "Dosis";
+width:50%;
+margin-left:10%;
+
+
+}
+
+.img
+{
+	width:120vh;
+	height:60vh;
+}
+.diveven
+{
+	float:right;
+
+}
+.divodd
+{
+	clear:both;
+}
+

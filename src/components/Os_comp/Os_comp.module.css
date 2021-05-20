@@ -1,0 +1,62 @@
+.headingodd,.headingeven
+{
+
+font-weight: bold;
+
+
+
+}
+
+.divoddtop
+{
+	width:45%;
+	
+	float:left;
+	margin-left:4%;
+	
+}
+
+.diveventop
+{
+   margin-top:5% ;
+	width:45%;
+	
+   padding-right:1%;
+	margin-left:50%;
+}
+
+.divodd,.diveven
+{
+
+
+font-family: "Dosis";
+width:50%;
+
+text-align:left;
+
+
+}
+.mark
+{
+	font-weight: bold;
+}
+.img
+{
+	width:100vh;
+	height:50vh;
+}
+.diveven
+{
+	margin-left:1%;
+	width:100%;
+	margin-right:1%
+
+}
+.divodd
+{
+	width:90%;
+	margin-left:2%;
+	margin-right:1%;
+	
+}
+

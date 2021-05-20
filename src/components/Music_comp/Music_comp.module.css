@@ -1,0 +1,20 @@
+.videoodd,.videoeven
+{
+	width:60vh;
+	height:40vh;
+}
+.videoodd
+{
+	margin-left:3%;
+	margin-top:3%;
+}
+.videoodd:hover, .videoeven:hover
+{
+	box-shadow:4px 4px grey;
+}
+.videoeven
+{
+	margin-left:3%;
+	margin-top:3%;
+	
+}
