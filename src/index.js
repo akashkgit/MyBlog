@@ -16,11 +16,11 @@ import {
   Route,
   Link
 } from "react-router-dom";
-window.history.replaceState(null,"","https://akashkgit.github.io/MyBlog/");
+window.history.replaceState(null,"","/MyBlog");
 window.history.forward();
 window.onpopstate=function()
 {
-  window.location.href="ttps://akashkgit.github.io/MyBlog/";
+  window.location.href="/MyBlog";
 }
 ReactDOM.render(
   
