@@ -93,13 +93,13 @@ right:0;
 }
 .open
 {
-
+float:right;
 width:5vw;
 height:3vh;
 display:none;
-margin-left:5%;
+margin-right:5%;
 margin-top:2%;
-margin-right:0%;
+
 
 opacity:0.5;
 position:sticky;
