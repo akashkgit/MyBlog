@@ -20,7 +20,7 @@ import {
 
 window.onpopstate=function()
 {
-  window.history.replaceState(null,"","/MyBlog");
+  window.location.assign("https://akashkgit.github.io/MyBlog/");
 
 
 }
