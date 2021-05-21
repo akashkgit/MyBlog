@@ -16,7 +16,12 @@ import {
   Route,
   Link
 } from "react-router-dom";
-
+window.history.pushState(null,"","/");
+window.history.forward();
+window.onpopstate=function()
+{
+  window.location.pathname="/";
+}
 ReactDOM.render(
   
 	<div className={styles.index} scroll="no">

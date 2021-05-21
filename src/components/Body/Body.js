@@ -33,12 +33,7 @@ import random from '../../img/random3.png';
 import author from '../../img/author2.JPG';
 import Author from '../Author/Author';
 import { useHistory } from "react-router-dom";
-window.history.pushState(null,"","/");
-window.history.forward();
-window.onpopstate=function()
-{
-  window.location.pathname="/";
-}
+
 class Body extends Component
 {
  
