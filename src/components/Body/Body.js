@@ -81,7 +81,7 @@ render(){
 <Link to="/python" onClick={this.hide}  ><Box src={python} txt="Python Bites"  txt2="This has some of the intruiging yet ambivalent python concepts that I have gone through and felt its worth taking a note"/></Link>
 
   
-  <Link to="/book" onClick={this.hide}  ><Box src={book}  txt="The enlightment by Books" txt2="Get Enlightened by reading some of my hand picked verses from good proficient Books that had piqued my interest "/></Link>
+  <Link to="/book" onClick={this.hide}  ><Box src={book}  txt="Enlightment from Books" txt2="Get Enlightened by reading some of my hand picked verses from good proficient Books that had piqued my interest "/></Link>
   <Link to="/sticky notes" onClick={this.hide} ><Box src={random}  txt="Sticky notes" txt2="Unpin this to see some of my miscellanious notes that I have taken on the go."/></Link>
   <br />
   <br />
