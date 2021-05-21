@@ -205,7 +205,7 @@ br
 	
 
   position: absolute;
-  left:45%;
+left:37vw;
   top: 0vh;
   animation-name: two;
   animation-duration:4s;
@@ -232,7 +232,7 @@ position: absolute;
 animation-name:onee;
 animation-duration:4s;
 animation-fill-mode: forwards;
-left:45%;
+left:37vw;
 width:45vw;
 top:0vh;
 
@@ -268,7 +268,7 @@ div .p
 {
 	position:absolute;
 	top:0px;
-	margin-left:26%;
+	margin-left:26vw;
 	opacity: 1;
 	animation-name: onee;
 	animation-fill-mode: forwards;
