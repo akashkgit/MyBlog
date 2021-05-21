@@ -1,8 +1,9 @@
+@media only screen and (min-width: 500px){
 .logos
 {
 	width:40%;
 	height:40%;
-	;
+	
 }
 
 .box
@@ -44,12 +45,79 @@
 .txt2
 {
 	text-align: center;
-	font-size: 100%;
+	font-size: 80%;
 	font-family: "Dosis";
 	margin-top:1%;
 }
 .txt
 {
 	font-weight: bold;
-	font-size: 200%;
+	font-size: 160%;
+	font-family: "Dosis";
+	margin-top:1%;
+	margin-bottom:1%;
+}
+
+
+}
+@media only screen and (max-width: 499px)
+{
+
+.logos
+{
+	width:40%;
+	height:40%;
+	
+}
+
+.box
+{
+
+	border: 2px solid black;
+    width:20%;
+    padding:1%;
+    margin-left:37%;
+
+   
+    display:block;
+
+}
+
+.box:hover .txt
+{
+	color:darkgreen;
+	
+	
+}
+.box:hover 
+{
+	
+	color:blue;
+   
+}
+
+
+
+.box:hover 
+{
+ 
+ box-shadow:2px 2px  2px 2px lightgreen;
+ background-color: #e6edda;
+ 
+
+}
+
+.txt2
+{
+	text-align: center;
+	font-size: 50%;
+	font-family: "Dosis";
+	margin-top:1%;
+}
+.txt
+{
+	font-weight: bold;
+	margin-left: 0%;
+	font-size: 100%;
+}
 }

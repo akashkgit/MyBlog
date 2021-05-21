@@ -56,7 +56,9 @@ const Body = () => (
 </div>
    <Router>
    <div id="router"  className={styles.router}>
-  <Link to="/os" onClick={hide} ><Box src={os}  txt="Operating System Overview" txt2="A click on this will open a list of interesting quick snippets of OS concepts"/></Link>
+  <br />
+  <Link to="/os" onClick={hide} ><Box src={os}  txt="OS Overview" txt2="A click on this will open a list of interesting quick snippets of OS concepts. I ll walk through Threads,Process etc."/></Link>
+
   <Link to="/java" onClick={hide} ><Box  id="one"  src={java} txt="Java Scripts" txt2="I dicuss about various important concepts in java that I  felt are quite baffling and significant to get a proficient in java"/></Link>
   
   <Link to="/project" onClick={hide}  ><Box src={project} txt="Project Arena" txt2="Open this arena to find the playlist of some of my project works in my college days"/></Link>

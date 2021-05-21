@@ -1,4 +1,4 @@
-
+@media only screen and (min-width: 768px){
 
 .body
 {
@@ -8,11 +8,7 @@
 	color:black;
 	background-color:#f3f5f0;
 	padding-bottom:1%;
-    overflow: visible;
-    overflow-y: visible;
-    
-    height:100%;
-
+   
    	
 	
 }
@@ -64,5 +60,72 @@ right:0;
 	font-size:100%;
 
 	
+}
 	
+}
+
+
+@media only screen and (max-width: 499px)
+{
+.body
+{
+	border:5px solid black;
+	padding-top:1%;
+
+	color:black;
+	background-color:#f3f5f0;
+	padding-bottom:1%;
+    width:100vw;
+   	
+	
+}
+
+.boxed
+{
+	width:65%;
+	height:10%;
+	
+
+}
+.open
+{
+
+width:8vh;
+height:6vh;
+display:none;
+margin-left:1%;
+margin-top:2%;
+margin-right:0%;
+float:left;
+opacity:0.5;
+position:sticky;
+top:7%;
+left:0;
+right:0;
+
+
+}
+
+.open:hover + p
+{
+	display:inline;
+	background-color:white;
+	opacity:0.6;
+	border:1px solid grey;
+}
+.router
+{
+	margin-left:10%;
+}
+
+.expand
+{   display:inline;
+	display:none;
+	position:absolute;
+	margin-top:0%;
+	padding:0.3%;
+	font-size:100%;
+
+	
+}
 }
