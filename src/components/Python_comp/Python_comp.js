@@ -4,7 +4,7 @@ import styles from './Python_comp.module.css';
 
 const Python_comp = () => (
   <div className={styles.Python_comp}>
-    <center><p>Comming Soon!</p></center>
+    <center><p>Coming Soon!</p></center>
   </div>
 );
 

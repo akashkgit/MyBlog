@@ -4,7 +4,7 @@ import styles from './Books_comp.module.css';
 
 const Books_comp = () => (
   <div className={styles.Books_comp}>
-   <center><p>Comming Soon!</p></center>
+   <center><p>Coming Soon!</p></center>
   </div>
 );
 

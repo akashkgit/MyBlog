@@ -57,17 +57,17 @@ const Body = () => (
    <Router>
    <div id="router"  className={styles.router}>
   <Link to="/os" onClick={hide} ><Box src={os}  txt="Operating System Overview" txt2="A click on this will open a list of interesting quick snippets of OS concepts"/></Link>
-  <Link to="/java" onClick={hide} ><Box  id="one"  src={java} txt="Java Scripts" txt2="I dicuss about various important concepts in java that I have felt is quite baffling and significant to get a command over this"/></Link>
+  <Link to="/java" onClick={hide} ><Box  id="one"  src={java} txt="Java Scripts" txt2="I dicuss about various important concepts in java that I  felt are quite baffling and significant to get a proficient in java"/></Link>
   
   <Link to="/project" onClick={hide}  ><Box src={project} txt="Project Arena" txt2="Open this arena to find the playlist of some of my project works in my college days"/></Link>
   <Link to="/music" onClick={hide} ><Box src={music} txt="Music Hall" txt2="Unlock this Hall to listen some of my musical plays that I do during my free time!"/></Link>
   <Link to="/c" onClick={hide} ><Box id="two" src={c} txt="C & C++ Notes" txt2="This has some of the intruiging yet ambivalent C& C++concepts that I have gone through and felt its worth taking a note"/></Link>
-  <Link to="/python" onClick={hide}  ><Box src={python} txt="Python Bites"  txt2="This has some of the intruiging yet ambivalent python concepts that I have gone through and felt its worth taking a note"/></Link>
+  
   <Link to="/ds" onClick={hide}  ><Box src={ds} txt="My Data Structure Dictionary"  txt2="Here, I jot down some of the Data Structure concepts for a quick glance!"/></Link>
-
+<Link to="/python" onClick={hide}  ><Box src={python} txt="Python Bites"  txt2="This has some of the intruiging yet ambivalent python concepts that I have gone through and felt its worth taking a note"/></Link>
 
   
-  <Link to="/book" onClick={hide}  ><Box src={book}  txt="The enlightment of Books" txt2="Get Enlightened by reading some of my hand picked verses from good proficient Books that had piqued my interest "/></Link>
+  <Link to="/book" onClick={hide}  ><Box src={book}  txt="The enlightment by Books" txt2="Get Enlightened by reading some of my hand picked verses from good proficient Books that had piqued my interest "/></Link>
   <Link to="/sticky notes" onClick={hide} ><Box src={random}  txt="Sticky notes" txt2="Unpin this to see some of my miscellanious notes that I have taken on the go."/></Link>
   <br />
   <br />

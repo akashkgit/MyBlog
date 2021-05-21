@@ -407,7 +407,7 @@ const MemVirt=()=>(
 
 	const page3=()=>(
 	<div className={styles.comingsoon}>
-         <center><p>Comming Soon!</p></center>
+         <center><p>Coming Soon!</p></center>
          </div>    
 
 
