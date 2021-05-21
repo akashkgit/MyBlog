@@ -65,7 +65,7 @@ const Body = () => (
   <Link to="/music" onClick={hide} ><Box src={music} txt="Music Hall" txt2="Unlock this Hall to listen some of my musical plays that I do during my free time!"/></Link>
   <Link to="/c" onClick={hide} ><Box id="two" src={c} txt="C & C++ Notes" txt2="This has some of the intruiging yet ambivalent C& C++concepts that I have gone through and felt its worth taking a note"/></Link>
   
-  <Link to="/ds" onClick={hide}  ><Box src={ds} txt="My Data Structure Dictionary"  txt2="Here, I jot down some of the Data Structure concepts for a quick glance!"/></Link>
+  <Link to="/ds" onClick={hide}  ><Box src={ds} txt="My DS Engine"  txt2="Here, I jot down some of the Data Structure concepts for a quick glance!"/></Link>
 <Link to="/python" onClick={hide}  ><Box src={python} txt="Python Bites"  txt2="This has some of the intruiging yet ambivalent python concepts that I have gone through and felt its worth taking a note"/></Link>
 
   

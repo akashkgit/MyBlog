@@ -31,6 +31,8 @@ font-family:"Reggae One";
 
 	margin-top:0%;
 	font-size: 160%;
+	
+
 	padding:1px;
 	
 }
@@ -174,7 +176,7 @@ a:hover
 		color:black;
 	background-color:white;
 font-family:"Reggae One";
-    width:100vw;
+    
 	margin-top:0%;
 	font-size: 100%;
 	padding:1%;
@@ -278,8 +280,8 @@ font-family:"Dosis";
 .ancestor
 {
 	position:relative;
-	margin-top:3%;
-	margin-left:8%;
+	margin-top:5%;
+	margin-left:1vw;
 
 }
 .details
@@ -291,8 +293,8 @@ font-family:"Dosis";
 	animation-duration:4s;
 	animation-delay:5s;	
 	opacity: 0;
-	font-size:70%;
-	margin-left:7vw;
+	font-size:70vw;
+	margin-left:8vw;
 	padding:1px;
 	font-family:"Dosis";
     font-size:60%;

@@ -77,10 +77,11 @@ right:0;
 	color:black;
 	background-color:#f3f5f0;
 	padding-bottom:1%;
-    width:100vw;	
+    width:100%;	
     overflow-x:hide;
 
 	margin-right:0%;
+	
 }
 
 .boxed
@@ -99,7 +100,7 @@ display:none;
 margin-left:5%;
 margin-top:2%;
 margin-right:0%;
-float:right;
+
 opacity:0.5;
 position:sticky;
 top:7%;
@@ -118,7 +119,7 @@ right:0;
 }
 .router
 {
-	margin-left:10%;
+	margin-left:2%;
 }
 
 .expand

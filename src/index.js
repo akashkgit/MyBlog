@@ -19,7 +19,7 @@ import {
 
 ReactDOM.render(
   
-	<div className={styles.index}>
+	<div className={styles.index} scroll="no">
   <Header />
   <Body />
   <div className={styles.auth} >
