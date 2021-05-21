@@ -41,15 +41,15 @@ render()
 		 		<div className={styles.ancestor}>
 		 		
 		 		<div  className={styles.details}>
-		 		<p className={styles.p}> 
+		 		
 		 		<img src={i} className={styles.img   } alt="broker" /> +91 9962635508   
 		 		<img src={mail} className={styles.img2}  alt="broker" /> akashkvit@gmail.com 
 		 		<a href="https://www.linkedin.com/in/i-am-akashkumar/" > <img src={in1} className={styles.img2}  alt="broker" /> Akash Kumar </a>
 		 		
 				<a href="https://github.com/akashkgit/" > <img src={git} className={styles.git}  alt="broker" />akashkgit</a>
-		 		</p>
+		 		
 		 		</div>
-		 		<div className={styles.quote}><p className={styles.p}> "The  Choice is what makes us the Human"</p></div>
+		 		<div className={styles.quote}> "The  Choice is what makes us the Human"</div>
 
                  
 		 		</div>

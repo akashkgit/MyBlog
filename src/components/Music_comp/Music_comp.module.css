@@ -1,6 +1,7 @@
 .videoodd,.videoeven
 {
 	width:60vh;
+	box-shadow:4px 4px grey;
 	height:40vh;
 }
 .videoodd
@@ -17,4 +18,28 @@
 	margin-left:3%;
 	margin-top:3%;
 	
+}
+@media only screen and (max-width: 499px)
+{
+
+.videoodd,.videoeven
+{
+		width:40vw;
+	height:20vh;
+}
+.videoodd,.videoeven
+{
+	margin-left:33%;
+	display:block;
+	margin-top:5%;
+}
+.videoodd:hover, .videoeven:hover
+{
+	box-shadow:4px 4px grey;
+}
+
+
+
+
+
 }

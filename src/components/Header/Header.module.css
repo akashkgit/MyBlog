@@ -120,7 +120,8 @@ div .p
 	animation-fill-mode: forwards;
 	animation-duration:4s;
 	animation-delay:2s;
-
+font-family:"Dosis";
+    font-size:70%;
 }
 .ancestor
 {
@@ -138,7 +139,9 @@ div .p
 	animation-duration:4s;
 	animation-delay:5s;	
 	opacity: 0;
-	font-size: 100%;
+	font-family:"Dosis";
+    font-size:70%;
+	
 }
 }
 @media only screen and (max-width: 499px)
@@ -147,8 +150,8 @@ div .p
 .emoji
 {
 
-width:5%;
-height:5%;
+width:3vw;
+
 }
 
 
@@ -166,7 +169,7 @@ a:hover
 {
 	overflow-x:hide;
 	  
-	  border:5px solid black;
+	  
 	
 		color:black;
 	background-color:white;
@@ -205,7 +208,7 @@ br
   animation-name: two;
   animation-duration:4s;
   animation-fill-mode: forwards;
-  width:100%;
+  width:35vw;
 
   
 
@@ -228,8 +231,8 @@ animation-name:onee;
 animation-duration:4s;
 animation-fill-mode: forwards;
 left:45%;
-width:100%;
-top:0%;
+width:45vw;
+top:0vh;
 
 
 
@@ -240,8 +243,7 @@ top:0%;
 {
 
 
-	height:1%;
-	width:1%;
+	width:3vw;
 }
 
 div .p
@@ -270,12 +272,13 @@ div .p
 	animation-fill-mode: forwards;
 	animation-duration:4s;
 	animation-delay:2s;
-
+font-family:"Dosis";
+    font-size:70%;
 }
 .ancestor
 {
 	position:relative;
-	margin-top:2%;
+	margin-top:3%;
 	margin-left:8%;
 
 }
@@ -289,8 +292,10 @@ div .p
 	animation-delay:5s;	
 	opacity: 0;
 	font-size:70%;
-	margin-left:7%;
+	margin-left:7vw;
 	padding:1px;
+	font-family:"Dosis";
+    font-size:60%;
 }
 }
 

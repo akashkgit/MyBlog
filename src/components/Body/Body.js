@@ -50,10 +50,10 @@ const Body = () => (
   <div className={styles.body}  id="body">
 <img src={open}  onClick={show} className={styles.open} id="open" alt="error"    />
 <p className={styles.expand}> Expand</p>
-  <div className={styles.box}>
+ 
 
 
-</div>
+
    <Router>
    <div id="router"  className={styles.router}>
   <br />

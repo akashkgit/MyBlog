@@ -68,4 +68,77 @@ width:92%;
 	margin-left:10%;
 }
 
+@media only screen and (max-width: 499px)
+{
 
+.videoodd,.videoeven
+{
+	width:40vw;
+	height:20vh;
+	box-shadow:4px 4px grey;
+}
+.txt
+{   clear:left;
+    width:80vw;
+   text-align:justify;
+	padding-top:10%;
+	padding-left:0%;
+
+}
+.txteven
+{
+
+	clear:left;
+    width:80vw;
+   text-align:justify;
+	padding-top:10%;
+	padding-left:0%;
+}
+.videoodd
+{
+	margin-left:3%;
+	margin-top:3%;
+	display:inline;
+	float:left;
+}
+.videoodd:hover, .videoeven:hover
+{
+	box-shadow:4px 4px grey;
+}
+.videoeven
+{
+	
+	
+	margin-left:3%;
+	margin-top:3%;
+	display:inline;
+	float:left;
+	
+}
+.divodd,.diveven
+{
+
+
+font-family: "Dosis";
+width:50%;
+
+
+
+}
+.diveven
+{  
+clear:right;
+	
+	padding-bottom:4%;
+	margin-left:10%;
+
+
+}
+.divodd
+{
+	clear:right;
+	
+	padding-bottom:4%;
+	margin-left:10%;
+}
+}

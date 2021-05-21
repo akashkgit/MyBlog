@@ -10,11 +10,15 @@ html
 }
 body
 {
-	height:auto;
-	background-color:#f3f5f0;
+	height:100%;
+
+	
+background-color:#f3f5f0;		
+	width:100vw;
+	
 }
 .auth
-{ c0lear:both;
+{ clear:both;
 	background-color:#a8ede6;
 	margin-bottom:1%;
 	

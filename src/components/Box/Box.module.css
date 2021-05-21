@@ -73,13 +73,15 @@
 .box
 {
 
-	border: 2px solid black;
+	
     width:20%;
     padding:1%;
-    margin-left:37%;
+    margin-left:10vw;
+    margin-right:0%;
+    display:inline-block;
 
    
-    display:block;
+    
 
 }
 

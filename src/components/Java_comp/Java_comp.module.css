@@ -39,6 +39,54 @@ margin-left:10%;
 }
 
 .comingsoon {
+ font-size:190%;
+
+}
+@media only screen and (max-width: 499px)
+{
+
+.headingodd,.headingeven
+{
+
+font-weight: bold;
+
+
+
+}
+
+
+.divodd,.diveven
+{
+
+
+font-family: "Dosis";
+width:50%;
+margin-left:10%;
+
+
+}
+.comingsoon {
  font-size:1200%;
+
+}
+
+.img
+{	width:40vw;
+	height:20vh;
+}
+.diveven
+{
+	float:right;
+
+}
+.divodd
+{
+	clear:both;
+}
+
+.comingsoon {
+ font-size:190%;
+
+}
 
 }
