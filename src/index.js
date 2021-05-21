@@ -20,7 +20,8 @@ import {
 
 window.onpopstate=function()
 {
-window.location.assign("https://akashkgit.github.io/MyBlog/");
+  window.history.replaceState(null,"","/MyBlog");
+
 
 }
 ReactDOM.render(
