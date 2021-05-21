@@ -21,7 +21,7 @@ ReactDOM.render(
   
 	<div className={styles.index} scroll="no">
   <Header />
-  <Body />
+  <Body onunload={()=>alert()} />
   <div className={styles.auth} >
   <Author />
   </div>
