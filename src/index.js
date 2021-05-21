@@ -20,8 +20,8 @@ import {
 
 window.onpopstate=function()
 {
-  window.location.assign("https://akashkgit.github.io/MyBlog/");
 
+window.location.href="https://akashkgit.github.io/MyBlog/";
 
 }
 ReactDOM.render(
