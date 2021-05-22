@@ -1,4 +1,5 @@
-
+@media only screen and (min-width: 500px)
+{
 
 .body
 {
@@ -64,7 +65,7 @@ right:0;
 	
 }
 
-
+}
 @media only screen and (max-width: 499px)
 {
 .body
@@ -109,21 +110,14 @@ right:0;
 
 }
 
-.open:hover + p
-{
-	display:inline;
-	background-color:white;
-	opacity:0.6;
-	border:1px solid grey;
-}
 .router
 {
 	margin-left:2%;
 }
 
 .expand
-{   display:inline;
-	left:80vw;
+{   display:none;
+	left:6vw;
 	display:none;
 	position:absolute;
 	margin-top:0%;
