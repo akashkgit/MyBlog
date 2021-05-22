@@ -37,6 +37,10 @@ padding-top:1%;
 
 
 }
+.name
+{
+	margin-left:4%;
+}
 .authorwords
 {   float:right;
     width:70%;
@@ -45,6 +49,66 @@ padding-top:1%;
 	margin-top:0%;
 
 	font-family: 'Pangolin';
+}
+@media only screen and (max-width: 799px)
+{
+
+.author
+{
+
+	margin-top:2%;
+
+display:block;
+
+width:100%;
+background-color: #c5ddeb;
+color:black;
+display:block;
+
+padding-left:50%;
+margin-top:0%;
+
+font-size:120%;
+
+padding-left:100%;
+padding-right:3%;
+
+padding-bottom:1%;
+
+
+	min-width:100vw;
+	
+	
+}
+
+.authorimg
+{
+
+border-radius:5%;
+float:left;
+
+width:20%;
+height:10%;
+margin-left:10%;
+padding-top:2%;
+
+
+
+}
+.authorwords
+{    margin-left:2%;
+    width:65vw;
+    margin-bottom:0%;
+	padding-top:5%;
+	margin-top:0%;
+    
+    
+	font-family: 'Pangolin';
+}
+.name
+{
+	margin-left:5%;
+}
 }
 @media only screen and (max-width: 499px)
 {
@@ -82,17 +146,23 @@ padding-bottom:1%;
 
 border-radius:5%;
 float:left;
-margin-left:5%;
-width:45vw;
+
+width:40%;
 height:10%;
-padding-top:30%;
+margin-left:10%;
+padding-top:2%;
 
 
-
+margin-top:7%;
+}
+.name
+{
+	margin-left:10%;
 }
 .authorwords
-{
-    width:40vw;
+{    margin-left:2%;
+     font-size:4vw;
+    width:45vw;
     margin-bottom:0%;
 	padding-top:5%;
 	margin-top:0%;
@@ -100,5 +170,4 @@ padding-top:30%;
     
 	font-family: 'Pangolin';
 }
-
 }

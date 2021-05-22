@@ -83,7 +83,7 @@ render(){
 
   
   <Link to="/book" onClick={this.hide}  ><Box src={book}  txt="Enlightment from Books" txt2="Get Enlightened by reading some of my hand picked verses from good proficient Books that had piqued my interest "/></Link>
-  <Link to="/sticky notes" onClick={this.hide} ><Box src={random}  txt="Sticky notes" txt2="Unpin this to see some of my miscellanious notes that I have taken on the go."/></Link>
+  <Link to="/stickynotes" onClick={this.hide} ><Box src={random}  txt="Sticky notes" txt2="Unpin this to see some of my miscellanious notes that I have taken on the go."/></Link>
   <br />
   <br />
    
@@ -98,7 +98,7 @@ render(){
   <Route exact path="/project" component={Project_comp} />
   <Route exact path="/music" component={Music_comp} />
   <Route exact path="/book" component={Books_comp} />
-  <Route exact path="/sticky notes" component={StickyNotes_comp} />
+  <Route exact path="/stickynotes" component={StickyNotes_comp} />
 
 
   </div> 
