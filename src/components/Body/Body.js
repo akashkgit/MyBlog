@@ -76,14 +76,18 @@ render(){
   
   <Link to="/project" onClick={this.hide}  ><Box src={project} txt="Project Arena" txt2="Open this arena to find the playlist of some of my project works in my college days"/></Link>
   <Link to="/music" onClick={this.hide} ><Box src={music} txt="Music Hall" txt2="Unlock this Hall to listen some of my musical plays that I do during my free time!"/></Link>
+  <Link to="/book" onClick={this.hide}  ><Box src={book}  txt="Enlightment from Books" txt2="Get Enlightened by reading some of my hand picked verses from good proficient Books that had piqued my interest "/></Link>
+  
+  <Link to="/stickynotes" onClick={this.hide} ><Box src={random}  txt="Sticky notes" txt2="Unpin this to see some of my miscellanious notes that I have taken on the go."/></Link>
+
   <Link to="/c" onClick={this.hide} ><Box id="two" src={c} txt="C & C++ Notes" txt2="This has some of the intruiging yet ambivalent C& C++concepts that I have gone through and felt its worth taking a note"/></Link>
   
-  <Link to="/ds" onClick={this.hide}  ><Box src={ds} txt="My DS Engine"  txt2="Here, I jot down some of the Data Structure concepts for a quick glance!"/></Link>
-<Link to="/python" onClick={this.hide}  ><Box src={python} txt="Python Bites"  txt2="This has some of the intruiging yet ambivalent python concepts that I have gone through and felt its worth taking a note"/></Link>
 
+<Link to="/python" onClick={this.hide}  ><Box src={python} txt="Python Bites"  txt2="This has some of the intruiging yet ambivalent python concepts that I have gone through and felt its worth taking a note"/></Link>
+<Link to="/ds" onClick={this.hide}  ><Box src={ds} txt="My DS Engine"  txt2="Here, I jot down some of the Data Structure concepts for a quick glance!"/></Link>
   
-  <Link to="/book" onClick={this.hide}  ><Box src={book}  txt="Enlightment from Books" txt2="Get Enlightened by reading some of my hand picked verses from good proficient Books that had piqued my interest "/></Link>
-  <Link to="/stickynotes" onClick={this.hide} ><Box src={random}  txt="Sticky notes" txt2="Unpin this to see some of my miscellanious notes that I have taken on the go."/></Link>
+  
+  
   <br />
   <br />
    

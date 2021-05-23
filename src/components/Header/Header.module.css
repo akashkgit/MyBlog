@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Reggae+One&display=swap');
-@media only screen and (min-width: 500px)
+@media only screen and (min-width: 800px)
 {
 .emoji
 {
@@ -56,7 +56,7 @@ font-family:"Reggae One";
 	
 
   position: absolute;
-  left: 42%;
+  left: 43.5%;
   top: 0px;
   animation-name: two;
   animation-duration:4s;
@@ -83,7 +83,7 @@ position:absolute;
 animation-name:onee;
 animation-duration:4s;
 animation-fill-mode: forwards;
-left:42%;
+left:43.5%;
 
 
 
@@ -117,7 +117,7 @@ div .p
 {
 	position:absolute;
 	top:0px;
-	left:36%;
+	left:39vw;
 	opacity: 1;
 	animation-name: onee;
 	animation-fill-mode: forwards;
@@ -129,7 +129,7 @@ font-family:"Dosis";
 .ancestor
 {
 	position:relative;
-	padding-left:24%;
+	
 
 }
 .details
@@ -144,6 +144,7 @@ font-family:"Dosis";
 	opacity: 0;
 	font-family:"Dosis";
     font-size:70%;
+    margin-left:28vw;
 	
 }
 }
@@ -301,4 +302,152 @@ font-family:"Dosis";
     font-size:60%;
 }
 }
+@media (min-width:500px) and (max-width: 799px)
+{
+.emoji
+{
 
+width:5%;
+height:5%;
+}
+
+
+a,a:active
+{
+	text-decoration: none;
+	color:black;
+}
+a:hover
+{
+
+	color:blue;
+}
+.header
+{
+	
+	
+	
+		color:black;
+	background-color:white;
+	
+font-family:"Reggae One";
+
+	margin-top:0%;
+	font-size: 160%;
+	
+
+	padding:1px;
+	
+}
+
+
+@keyframes two {
+0%{opacity: 0;}
+	10%{opacity: 0.1;}
+	20%{opacity: 0.2;}
+	30%{opacity: 0.3;}
+	40%{opacity: 0.4;}
+	50%{opacity: 0.5;}
+	60%{opacity: 0.6;}
+	70%{opacity: 0.7;}
+	80%{opacity: 0.8;}
+	90%{opacity: 0.9;}
+	100%{opacity: 1;}
+}
+.two{
+	
+
+  position: absolute;
+  left:35vw;
+  top: 0px;
+  animation-name: two;
+  animation-duration:4s;
+  animation-fill-mode: forwards;
+
+  
+
+
+}
+@keyframes onee {
+	100%{opacity: 0;}
+	90%{opacity: 0.2;}
+	60%{opacity: 0.8;}
+	70%{opacity: 0.5;}
+	80%{opacity: 0.3;}
+	50%{opacity: 1;}
+	25%{opacity: 1;}
+	0%{opacity: 1;}
+}
+
+.one{
+
+position:absolute;
+animation-name:onee;
+animation-duration:4s;
+animation-fill-mode: forwards;
+left:35vw;
+
+
+
+
+}
+
+.img2,.img,.git
+{
+
+
+	height:2.3%;
+	width:2.3%;
+}
+
+div .p
+{
+    margin:0%;
+    font-family:"Dosis";
+    font-size:70%;
+    
+
+
+}
+.img2,.img,.git
+{
+	margin-left:2%;
+
+}
+
+.quote
+{
+	position:absolute;
+	top:0px;
+	left:27vw;
+	opacity: 1;
+	animation-name: onee;
+	animation-fill-mode: forwards;
+	animation-duration:4s;
+	animation-delay:2s;
+font-family:"Dosis";
+    font-size:70%;
+}
+.ancestor
+{
+	position:relative;
+
+	
+
+}
+.details
+{
+	
+	animation-name: two;
+	top:0;
+    
+	animation-fill-mode: forwards;
+	animation-duration:4s;
+	animation-delay:5s;	
+	opacity: 0;
+	font-family:"Dosis";
+    font-size:70%;
+    margin-left:11vw;
+	
+}
+}
