@@ -86,7 +86,7 @@ const Zero2one=()=>(
               
               <p>
                 <span className={styles.mark}>0 to 1</span>
-                 :A startup/company with a unique product is meant to have gone from 0 to 1. But, any company replicating the existing product/styles
+                  A startup/company with a unique product is meant to have gone from 0 to 1. But, any company replicating the existing product/styles
                 is said to go from 1 to n. These 1 to n stages are termed as Globalisation. The 0 to 1 stage is called as Technology/advancement. 
                 For example, Amazon was found in 1994. Flipkart was found in 2007. Here, Flipkart has just made a globalisation of online store which was already started in the states. Similarly, Zomato was founded in 
                 2008 and led to a food delivery mania which is still going on and have led lot of company to like uber(uber eats),food panda et cetera.               
@@ -120,7 +120,7 @@ const Zero2one=()=>(
               <div className={styles.divodd}>
               <img  src={essentialism} className={styles.img} alt="error"/> 
             
-              <h3 className={styles.headingodd}>The essentialism</h3>
+              <h3 className={styles.headingodd}>The Essentialism</h3>
               
           
              <p><span className={styles.mark}>Yes!</span>
@@ -149,7 +149,7 @@ const Zero2one=()=>(
             </p>
             <p>
             <span className={styles.mark}>Less But better!</span>
-            Dont dont many things paralley. That doesnot make significant impact in those activities. Instead of doing 1mm in 10 task,
+            Dont dont many things parallely. That doesnot make significant impact in those activities. Instead of doing 1mm in 10 task,
               put all the 1mm in one task and make 10mm work that makes significance. So, do less but btetter. So, there is a difference between multi tasking and multi focussing.
               You can only focus a single activity at a time. But, can do two or more that does not require your focus.
                
