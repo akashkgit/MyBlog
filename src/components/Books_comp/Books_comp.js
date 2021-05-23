@@ -124,7 +124,7 @@ const Zero2one=()=>(
               
           
              <p><span className={styles.mark}>Yes!</span>
-              Dont say 'yes' by default.Dont say "yes" so that the requestor  does not resent you. So, Learn to say no, If you dont prioritise, Someone's priority will become yours
+               Dont say 'yes' by default.Dont say "yes" so that the requestor  does not resent you. So, Learn to say no, If you dont prioritise, Someone's priority will become yours
              </p>
 
              <p><span className={styles.mark}>Decision Thinking</span>
