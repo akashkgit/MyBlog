@@ -34,6 +34,7 @@ import author from '../../img/author2.JPG';
 import Author from '../Author/Author';
 import { useHistory } from "react-router-dom";
 
+window.alert(window.location.pathname);
 class Body extends Component
 {
  

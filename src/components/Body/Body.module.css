@@ -1,4 +1,4 @@
-@media only screen and (min-width: 500px)
+@media only screen and (min-width: 800px)
 {
 
 .body
@@ -93,9 +93,10 @@ right:0;
 }
 .open
 {
+	
 float:right;
-width:4vw;
-height:2vh;
+width:6vw;
+height:6vw;
 display:none;
 margin-right:5%;
 margin-top:2%;
@@ -128,7 +129,7 @@ right:0;
 }
 }
 
-@media only screen and (max-width: 799px)
+@media only screen and (max-width: 799px ),only screen and( min-width: 500px)
 {
 .body
 {
