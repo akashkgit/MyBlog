@@ -17,10 +17,6 @@ import {
   Link
 } from "react-router-dom";
 
-if(window.location.pathname!="/MyBlog")
-{
-  window.location.href="https://akashkgit.github.io/MyBlog";
-}
 
 ReactDOM.render(
   
