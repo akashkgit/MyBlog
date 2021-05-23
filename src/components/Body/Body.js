@@ -34,7 +34,7 @@ import author from '../../img/author2.JPG';
 import Author from '../Author/Author';
 import { useHistory } from "react-router-dom";
 
-window.alert(window.location.pathname);
+
 class Body extends Component
 {
  
@@ -50,6 +50,8 @@ hide()
 document.getElementById("router").style.display="none";
 document.getElementById("open").style.display='block';
 document.getElementById("router_comp").style.display='block';
+
+
 
 }
  show()
@@ -71,7 +73,7 @@ render(){
    <Router >
    <div id="router"  className={styles.router}>
   <br />
-  <Link to="./os" onClick={this.hide} ><Box src={os}  txt="OS Overview" txt2="A click on this will open a list of interesting quick snippets of OS concepts. I ll walk through Threads,Process etc."/></Link>
+  <Link to="/os" onClick={this.hide} ><Box src={os}  txt="OS Overview" txt2="A click on this will open a list of interesting quick snippets of OS concepts. I ll walk through Threads,Process etc."/></Link>
 
   <Link to="/java" onClick={this.hide} ><Box  id="one"  src={java} txt="Java Scripts" txt2="I dicuss about various important concepts in java that I  felt are quite baffling and significant to get a proficient in java"/></Link>
   
