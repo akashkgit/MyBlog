@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Author.module.css';
-import author from '../../img/author11.png';
+import author from '../../img/author112.png';
 const Author = () => (
 
   <div className={styles.author} id="auth" >
