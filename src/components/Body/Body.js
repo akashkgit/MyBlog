@@ -14,7 +14,7 @@ import  StickyNotes_comp from "../StickyNotes_comp/StickyNotes_comp";
 import { browserHistory } from 'react-router';
 import open from "../../img/open3.png";
 import {
-  MemoryRouter as Router ,
+  HashRouter as Router ,
   Switch,
   Route,
   Link

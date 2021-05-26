@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import styles from './Pageno.module.css';
 
 import {
-  BrowserRouter as Router ,
+  HashRouter as Router ,
   Switch,
   Route,
   Link,

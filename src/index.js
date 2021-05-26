@@ -17,13 +17,6 @@ import {
   Link
 } from "react-router-dom";
 
-
-window.onpopstate=function()
-{
-
-window.location.href="https://akashkgit.github.io/MyBlog/";
-
-}
 ReactDOM.render(
   
 	<div className={styles.index} scroll="no">
