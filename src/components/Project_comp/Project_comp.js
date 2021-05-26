@@ -39,19 +39,17 @@ The rover's left and right movements are controlled by rotating left pair of whe
 );
 
 const Page2=()=>(
-       <div id="page2" >
- <iframe className={styles.videoodd} width="560" height="315" src="https://www.youtube.com/embed/_-2-O6oRQaA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
- <iframe className={styles.videoeven}  width="560" height="315" src="https://www.youtube.com/embed/S-19MnRrWMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
- <iframe className={styles.videoodd} width="560" height="315" src="https://www.youtube.com/embed/iIKtV3732tQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+         <div className={styles.comingsoon}>
+         <center><p>Coming Soon!</p></center>
+         </div>    
+
 
 );
 const Page3=()=>(
-       <div id="page3" >
- <iframe className={styles.videoodd} width="560" height="315" src="https://www.youtube.com/embed/ZmcSwsIR6LA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
- <iframe className={styles.videoeven}  width="560" height="315" src="https://www.youtube.com/embed/-I6uY2X1ojo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
- <iframe className={styles.videoodd} width="560" height="315" src="https://www.youtube.com/embed/Hq50ajghqOI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+  <div className={styles.comingsoon}>
+         <center><p>Coming Soon!</p></center>
+         </div>    
+
 
 );
 

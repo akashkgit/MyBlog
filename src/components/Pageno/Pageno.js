@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import styles from './Pageno.module.css';
 
 import {
-  BrowserRouter as Router ,
+  MemoryRouter as Router ,
   Switch,
   Route,
   Link,
@@ -16,7 +16,7 @@ const Pageno = (props) => (
        <Route   path="/1" component={props.page1_comp} />
        
        
-       <Route   path={props.homepage} component={props.page1_comp} />
+       <Route   exact path="/" component={props.page1_comp} />
        <Route path="/2" component={props.page2_comp} />
        <Route path="/3" component={props.page3_comp} />
        <div id="pagenodiv" className={styles.pagenodiv}>
