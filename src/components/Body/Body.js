@@ -14,7 +14,7 @@ import  StickyNotes_comp from "../StickyNotes_comp/StickyNotes_comp";
 import { browserHistory } from 'react-router';
 import open from "../../img/open3.png";
 import {
-  HashRouter as Router ,
+  BrowserRouter as Router ,
   Switch,
   Route,
   Link
@@ -41,7 +41,10 @@ class Body extends Component
   {
     super(props);
 
+
   }
+
+ 
 hide()
 {
 
