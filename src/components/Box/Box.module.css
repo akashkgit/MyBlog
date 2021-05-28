@@ -1,4 +1,4 @@
-@media only screen and (min-width: 500px){
+@media only screen and (min-width: 800px){
 .logos
 {
 	width:40%;
@@ -123,4 +123,66 @@
 	font-size: 90%;
 		font-family: "Dosis";
 }
+}
+@media only screen and (min-width: 500px) and ( max-width: 799px){
+.logos
+{
+	width:40%;
+	height:40%;
+	
+}
+
+.box
+{
+    
+	margin-left:11vw;
+    width:30%;
+    padding:1%;
+
+   
+    display:inline-block;
+
+}
+
+.box:hover .txt
+{
+	color:darkgreen;
+	
+	
+}
+.box:hover 
+{
+	
+	color:blue;
+   
+}
+
+
+
+.box:hover 
+{
+ 
+ box-shadow:2px 2px  2px 2px lightblue;
+ background-color: #e6edda;
+ 
+
+}
+
+.txt2
+{
+	text-align: center;
+	font-size: 110%;
+	font-family: "Dosis";
+	margin-top:1%;
+}
+.txt
+{
+	font-weight: bold;
+	font-size: 160%;
+	font-family: "Dosis";
+	margin-top:1%;
+	margin-bottom:1%;
+}
+
+
 }

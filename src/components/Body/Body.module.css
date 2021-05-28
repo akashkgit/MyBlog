@@ -127,6 +127,10 @@ right:0;
 
 	
 }
+.last
+{
+	margin-left:22%;
+}
 }
 @media (min-width: 500px) and (max-width:799px)
 {
@@ -152,6 +156,10 @@ right:0;
 	height:10%;
 	border:2px solid red;
 
+}
+.last
+{
+	margin-left:22%;
 }
 .open
 {
