@@ -78,7 +78,7 @@ render(){
   <Link to="/java" onClick={this.hide} ><Box  id="one"  src={java} txt="Java Scripts" txt2="I dicuss about various important concepts in java that I  felt are quite baffling and significant to get a proficient in java"/></Link>
   
 
-  <Link to="/project" onClick={this.hide}  ><Box src={project} txt="Project Arena" txt2="Open this arena to find the playlist of some of my project works in my college days"/></Link>
+  <Link to="/project" onClick={this.hide}  ><Box src={project} txt="Project Arena" txt2="Open this arena to find the playlist of some of my project works in my college days. "/></Link>
   <Link to="/music" onClick={this.hide} ><Box src={music} txt="Music Hall" txt2="Unlock this Hall to listen some of my musical plays that I do during my free time!"/></Link>
   <Link to="/book" onClick={this.hide}  ><Box src={book}  txt="Enlightment from Books" txt2="Reading them is easy.But,putting them into practice is arduous! It tests our determination. "/></Link>  
   

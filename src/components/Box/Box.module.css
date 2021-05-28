@@ -114,7 +114,8 @@
 	text-align: center;
 	font-size: 65%;
 	font-family: "Dosis";
-	margin-top:1%;
+	margin-top:-10%;
+	
 }
 .txt
 {
@@ -173,15 +174,16 @@
 	text-align: center;
 	font-size: 110%;
 	font-family: "Dosis";
-	margin-top:1%;
+	margin-top:-10%;
+	
 }
 .txt
 {
 	font-weight: bold;
 	font-size: 160%;
 	font-family: "Dosis";
-	margin-top:1%;
-	margin-bottom:1%;
+	
+	
 }
 
 
