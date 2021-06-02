@@ -335,7 +335,7 @@ font-family:"Reggae One";
 	margin-top:0%;
 	font-size: 160%;
 	
-
+    width:100vw;
 	padding:1px;
 	
 }
@@ -358,7 +358,7 @@ font-family:"Reggae One";
 	
 
   position: absolute;
-  left:35vw;
+  left:40%;
   top: 0px;
   animation-name: two;
   animation-duration:4s;
@@ -385,7 +385,7 @@ position:absolute;
 animation-name:onee;
 animation-duration:4s;
 animation-fill-mode: forwards;
-left:35vw;
+left:40%;
 
 
 
