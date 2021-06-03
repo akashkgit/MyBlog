@@ -14,18 +14,7 @@
    	
 	
 }
-@keyframes blink
-{
-   0%{display: block;}
-	
-	50%{display: none;}
-	60%{display: block;}
-	
-	90%{display: none;}
-	100%{display: block;}
 
-
-}
 
 .boxed
 {
@@ -36,18 +25,12 @@
 }
 @keyframes blink
 {
-   0%{opacity:1;}
-   10%{opacity:0.7;}
-   20%{opacity:0.4;}
-   30%{opacity:0.1;}
-   40%{opacity:0;}
-   50%{opacity:0.1;}
-   60%{opacity:0.4;}
-   70%{opacity:0.7;}
-   80%{opacity:0.8;}
-   90%{opacity:1;}  
-   100%{opacity:0.5;}
-
+   0%{opacity: 0;}
+   30%{  opacity: 0.5;filter:blur(3px);}
+   60%{  filter:blur(5px);opacity: 1;}
+   70%{ filter:blur(15px);opacity: 1;}
+   100%{ filter:blur(0px);opacity: 0.5;}
+  
 
 }
 .unopened
@@ -60,12 +43,12 @@ margin-left:1%;
 margin-top:2%;
 margin-right:0%;
 float:left;
-opacity:0.5;
+
 animation-name:blink;
-animation-duration:3s;
-animation-iteration-count: 2;
-animation-direction:alternate;
-animation-fill-mode: forwards;
+animation-duration:2s;
+animation-iteration-count: 1;
+animation-direction: alternate;
+opacity: 0.5;
 
 position:sticky;
 top:7%;
@@ -143,6 +126,17 @@ right:0;
 	
 
 }
+@keyframes blink
+{
+    0%{opacity: 0;}
+   30%{  opacity: 0.5;filter:blur(3px);}
+   60%{  filter:blur(5px);opacity: 1;}
+   70%{ filter:blur(15px);opacity: 1;}
+   100%{ filter:blur(0px);opacity: 0.5;}
+  
+
+}
+
 .open
 {
 float:right;
@@ -154,6 +148,32 @@ margin-right:5%;
 
 
 opacity:0.5;
+position:sticky;
+
+top:8%;
+left:0;
+right:0;
+
+
+}
+.unopened
+{
+float:right;
+width:5vw;
+height:5vw;
+border:10px solid red;
+display:none;
+margin-right:5%;
+animation-name:blink;
+animation-duration:3s;
+animation-iteration-count: 2;
+animation-direction:alternate;
+animation-fill-mode: forwards;
+opacity:0.5;
+
+
+
+
 position:sticky;
 
 top:8%;
@@ -201,6 +221,17 @@ right:0;
 	margin-right:0%;
 	
 }
+@keyframes blink
+{
+ 0%{opacity: 0;}
+   30%{  opacity: 0.5;filter:blur(3px);}
+   60%{  filter:blur(5px);opacity: 1;}
+   70%{ filter:blur(15px);opacity: 1;}
+   100%{ filter:blur(0px);opacity: 0.5;}
+  
+
+}
+
 
 .boxed
 {
@@ -225,6 +256,32 @@ margin-top:2%;
 
 
 opacity:0.3;
+position:sticky;
+top:5%;
+left:0;
+right:0;
+
+
+}
+
+.unopened
+{
+	
+float:right;
+width:4vw;
+height:4vw;
+display:none;
+margin-right:5%;
+margin-top:2%;
+
+animation-name:blink;
+animation-duration:3s;
+animation-iteration-count: 1;
+animation-direction:alternate;
+animation-fill-mode: forwards;
+
+opacity:0.5;
+
 position:sticky;
 top:5%;
 left:0;

@@ -60,7 +60,7 @@ document.getElementById("router_comp").style.display='block';
 }
  show()
 {
-  this.state.opened=true;
+  this.setState((state)=>(this.state.opened=true));
   document.getElementById("router").style.display="block";
 document.getElementById("open").style.display='none';
 document.getElementById("router_comp").style.display='none';
