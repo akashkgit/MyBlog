@@ -161,7 +161,7 @@ right:0;
 float:right;
 width:5vw;
 height:5vw;
-border:10px solid red;
+
 display:none;
 margin-right:5%;
 animation-name:blink;
@@ -237,7 +237,7 @@ right:0;
 {
 	width:65%;
 	height:10%;
-	border:2px solid red;
+	
 
 }
 .last
