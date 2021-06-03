@@ -130,7 +130,21 @@ text-align:justify;
 	height:20vh;
 }
 
+@keyframes blury
+{
 
+
+
+}
+.index
+{
+
+animation-name:blurry;
+animation-duration:2s;
+animation-iteration-count: 1;
+
+
+}
 
 
 }
