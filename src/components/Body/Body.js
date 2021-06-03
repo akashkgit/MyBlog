@@ -36,11 +36,14 @@ import { useHistory } from "react-router-dom";
 
 class Body extends Component
 {
+
  
   constructor(props)
   {
     super(props);
-
+    this.hide=this.hide.bind(this);
+    this.state={opened:false};
+    this.show=this.show.bind(this);
 
   }
 
@@ -53,9 +56,11 @@ document.getElementById("router").style.display="none";
 document.getElementById("open").style.display='block';
 document.getElementById("router_comp").style.display='block';
 
+
 }
  show()
 {
+  this.state.opened=true;
   document.getElementById("router").style.display="block";
 document.getElementById("open").style.display='none';
 document.getElementById("router_comp").style.display='none';
@@ -64,7 +69,7 @@ render(){
   return (
   <div className={styles.body}  id="body">
 
-<img src={open}  onClick={this.show} className={styles.open} id="open" alt="error"    />
+<img src={open}  onClick={this.show} className={this.state.opened?styles.open:styles.unopened} id="open" alt="error"    />
 <p className={styles.expand}> Expand</p>
  
 

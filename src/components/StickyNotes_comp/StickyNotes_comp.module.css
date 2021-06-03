@@ -15,7 +15,7 @@ font-weight: bold;
 
 
 .divoddtop
-{
+{background-color:#f3f5f0;
 	width:45%;
 	 padding-top:5%;
 	float:left;
@@ -24,7 +24,7 @@ font-weight: bold;
 }
 
 .diveventop
-{
+{background-color:#f3f5f0;
    padding-top:5%;
 	width:45%;
 	
@@ -34,6 +34,9 @@ font-weight: bold;
 
 .divodd,.diveven
 {
+
+
+padding:1%;
 
 
 font-family: "Dosis";
@@ -108,8 +111,8 @@ font-weight: bold;
 
 .divodd,.diveven
 {
-
-
+box-shadow:20px 20px 50px 10px pink;
+border: 1px solid red;
 font-family: "Dosis";
 
 
