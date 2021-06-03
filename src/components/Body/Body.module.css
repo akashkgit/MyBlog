@@ -45,7 +45,7 @@ margin-right:0%;
 float:left;
 
 animation-name:blink;
-animation-duration:2s;
+animation-duration:3s;
 animation-iteration-count: 1;
 animation-direction: alternate;
 opacity: 0.5;
@@ -166,7 +166,7 @@ display:none;
 margin-right:5%;
 animation-name:blink;
 animation-duration:3s;
-animation-iteration-count: 2;
+animation-iteration-count: 1;
 animation-direction:alternate;
 animation-fill-mode: forwards;
 opacity:0.5;
