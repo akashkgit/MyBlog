@@ -26,10 +26,10 @@
 }
 @keyframes blink
 {
-   0%{opacity: 0;filter:blur(5px);}
-   10%{opacity: 1;filter:blur(33px);}
-   20%{opacity: 1;filter:blur(43px);}
-   50%{opacity: 0.5;filter:blur(0px);}
+   0%{opacity: 0;filter:blur(0px);}
+   5%{opacity: 1;filter:blur(33px);}
+   
+   20%{opacity: 0.5;filter:blur(0px);}
    
 
 }
@@ -128,10 +128,10 @@ right:0;
 }
 @keyframes blink
 {
-   0%{opacity: 0;filter:blur(5px);}
-   10%{opacity: 1;filter:blur(33px);}
-   20%{opacity: 1;filter:blur(43px);}
-   50%{opacity: 0.5;filter:blur(0px);}
+   0%{opacity: 0;filter:blur(0px);}
+   5%{opacity: 1;filter:blur(33px);}
+   
+   20%{opacity: 0.5;filter:blur(0px);}
    
 
 }
@@ -222,14 +222,13 @@ right:0;
 }
 @keyframes blink
 {
- 0%{opacity: 0;filter:blur(0px);}
-   10%{opacity: 1;filter:blur(33px);}
-   20%{opacity: 1;filter:blur(43px);}
-   50%{opacity: 0.5;filter:blur(0px);}
+   0%{opacity: 0;filter:blur(0px);}
+   5%{opacity: 1;filter:blur(33px);}
+   
+   20%{opacity: 0.5;filter:blur(0px);}
    
 
 }
-
 
 .boxed
 {
