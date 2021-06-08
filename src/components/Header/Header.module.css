@@ -35,7 +35,10 @@ a:hover
 }
 
 
-
+.indark,.gitdark
+{
+	display:none;
+}
 
 .header
 {
@@ -110,7 +113,7 @@ left:43.5%;
 
 }
 
-.img2,.img,.git
+.img2,.img,.git,.inlight
 {
 
 
@@ -127,7 +130,7 @@ div .p
 
 
 }
-.img2,.img,.git
+.img2,.img,.git,.inlight
 {
 	margin-left:2%;
 
@@ -170,6 +173,11 @@ font-family:"Dosis";
 }
 @media only screen and (max-width: 499px) and (prefers-color-scheme: light)
 {
+
+.indark,.gitdark
+{
+	display:none;
+}
 
 .emoji
 {
@@ -262,7 +270,7 @@ top:0vh;
 
 }
 
-.img2,.img,.git
+.img2,.img,.git,.inlight
 {
 
 
@@ -279,7 +287,7 @@ div .p
 
 
 }
-.img2,.img,.git
+.img2,.img,.git,.inlight
 {
 	margin-left:1%;
 
@@ -323,6 +331,11 @@ font-family:"Dosis";
 }
 @media (min-width:500px) and (max-width: 799px) and (prefers-color-scheme: light)
 {
+	.indark,.gitdark
+{
+	display:none;
+}
+
 .emoji
 {
 
@@ -411,7 +424,7 @@ left:40%;
 
 }
 
-.img2,.img,.git
+.img2,.img,.git,.inlight
 {
 
 
@@ -428,7 +441,7 @@ div .p
 
 
 }
-.img2,.img,.git
+.img2,.img,.git,.inlight
 {
 	margin-left:2%;
 
