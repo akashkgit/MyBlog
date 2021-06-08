@@ -140,7 +140,7 @@ const OsTypes=()=>(
 	);
 const Threads=()=>(
 	<div className={styles.diveven}>
-              <h3 class="headingeven">Threads</h3>
+              <h3 className={styles.headingeven}>Threads</h3>
               
               <p> 
                 Threads are subordinate workers pf a process.A process can have multiple threads. All the the threads of a process share the same location.
@@ -155,7 +155,7 @@ const Threads=()=>(
 	);
 	const Threadsjoin=()=>(
 	<div className={styles.diveven}>
-              <h3 class="headingeven">Thread Join</h3>
+              <h3 className={styles.headingeven}>Thread Join</h3>
               
               <p> 
                 consider two threads T1,T2. T2 starts after T1. When T1.join is used, the main thread waits for T1 to complete. If join is not used, main thread might end and get 
@@ -168,7 +168,7 @@ const Threads=()=>(
 	);
 	const ThreadTypes=()=>(
 	<div className={styles.diveven}>
-              <h3 class="headingeven">Thread Types,Relationship and Management</h3>
+              <h3 className={styles.headingeven}>Thread Types,Relationship and Management</h3>
               
               <p> 
                There are two types of Threads
@@ -194,7 +194,7 @@ const Threads=()=>(
 	);
 	const ThreadPattern=()=>(
 	<div className={styles.diveven}>
-              <h3 class="headingeven">Thread Design Pattern</h3>
+              <h3 className={styles.headingeven}>Thread Design Pattern</h3>
               
               <p> 
                There are two types of Thread Design Pattern
@@ -212,7 +212,7 @@ const Threads=()=>(
 	);
 	const Calls=()=>(
 	<div className={styles.diveven}>
-              <h3 class="headingeven">Sync vs Async</h3>
+              <h3 className={styles.headingeven}>Sync vs Async</h3>
               
               <p> 
                In a Synchronous call, the main thread alone works serially. In a single threaded Asynchronous call, the main thread delegates a work to a single thread and carries its own work.
@@ -226,7 +226,7 @@ const Threads=()=>(
 	);
 	const Mutex=()=>(
 	<div className={styles.diveven}>
-              <h3 class="headingeven">Mutex,Trylock,spinlock and Semaphore</h3>
+              <h3 className={styles.headingeven}>Mutex,Trylock,spinlock and Semaphore</h3>
               
               <p> 
               Mutex is a thread management library. It can lock the threads.once locked ither threads seeking the critical section are block unless the critical section is unlocked.
@@ -250,7 +250,7 @@ const Threads=()=>(
 	);
 	const Locality=()=>(
 	<div className={styles.diveven}>
-              <h3 class="headingeven">Locality</h3>
+              <h3 className={styles.headingeven}>Locality</h3>
               
               <p> 
               There are two types of Locality
@@ -300,7 +300,7 @@ const page2=()=>(
 	);
 	const Virtualisation=()=>(
 	<div className={styles.diveven}>
-              <h3 class="headingeven">Virtualisation</h3>
+              <h3 className={styles.headingeven}>Virtualisation</h3>
               
               <p> 
               <span classname={styles.mark} >Virtual Machine Monitor (VMM)</span> is the layer that manages Virtual Machine.
@@ -323,7 +323,7 @@ const page2=()=>(
 	);
 const Trap=()=>(
 	<div className={styles.diveven}>
-              <h3 class="headingeven">Trap and emulate</h3>
+              <h3 className={styles.headingeven}>Trap and emulate</h3>
               
               <p> 
              When a guest OS makes a request to priveleged instruction, a trap is raised and the control gets transfered to hypervisor.
@@ -337,7 +337,7 @@ const Trap=()=>(
 	);
 	const HyperCalls=()=>(
 	<div className={styles.diveven}>
-              <h3 class="headingeven">HyperCalls</h3>
+              <h3 className={styles.headingeven}>HyperCalls</h3>
               
               <p> 
              Here, the Guest OS knows that it is a virtualised one and hence makes explicit calls to hypervisor when executing a privelegd instruction.
@@ -352,7 +352,7 @@ const Trap=()=>(
 
 const MemVirt=()=>(
 	<div className={styles.diveven}>
-              <h3 class="headingeven">Memory Virtualisation</h3>
+              <h3 className={styles.headingeven}>Memory Virtualisation</h3>
               
               <p> 
               There are two types of memory Virtualisation
@@ -379,7 +379,7 @@ const MemVirt=()=>(
 	);
 	const DevVirt=()=>(
 	<div className={styles.diveven}>
-              <h3 class="headingeven">Device Virtualisation</h3>
+              <h3 className={styles.headingeven}>Device Virtualisation</h3>
               
               <p> 
               There are three types of memory Virtualisation

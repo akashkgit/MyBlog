@@ -50,7 +50,7 @@ const page1=()=>(
 
 const Cts=()=>(
 	<div className={styles.divodd}>
-              <h3 class="headingodd">Abstract but subtle!</h3>
+              <h3 className={styles.headingodd} >Abstract but subtle!</h3>
               <img src={code1} alt="error" className={styles.img} />
               <p> 
                  

@@ -13,6 +13,7 @@ import  Books_comp from "../Books_comp/Books_comp";
 import  StickyNotes_comp from "../StickyNotes_comp/StickyNotes_comp";
 import { browserHistory } from 'react-router';
 import open from "../../img/open3.png";
+import opendark from "../../img/opendark5.png";
 import {
   MemoryRouter as Router ,
   Switch,
@@ -50,26 +51,32 @@ class Body extends Component
  
 hide()
 {
-
-
+var dark=window.matchMedia('(prefers-color-scheme: dark)').matches;
+if(dark)document.getElementById("opendark").style.display='block';
+else document.getElementById("openlight").style.display='block';
 document.getElementById("router").style.display="none";
-document.getElementById("open").style.display='block';
+//document.getElementById("opendark").style.display='block';
 document.getElementById("router_comp").style.display='block';
 
 
 }
  show()
 {
-  this.setState((state)=>(this.state.opened=true));
+ this.setState((state)=>(this.state.opened=true));
   document.getElementById("router").style.display="block";
-document.getElementById("open").style.display='none';
+  var dark=window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+if(dark)document.getElementById("opendark").style.display='none';
+else
+ document.getElementById("openlight").style.display='none';
 document.getElementById("router_comp").style.display='none';
 }
 render(){
   return (
   <div className={styles.body}  id="body">
 
-<img src={open}  onClick={this.show} className={this.state.opened?styles.open:styles.unopened} id="open" alt="error"    />
+<img src={open}  onClick={this.show} className={this.state.opened?styles.openlight:styles.unopenedlight} id="openlight" alt="error"    />
+<img src={opendark}  onClick={this.show} className={this.state.opened?styles.opendark:styles.unopeneddark} id="opendark" alt="error"    />
 <p className={styles.expand}> Expand</p>
  
 

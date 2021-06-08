@@ -229,7 +229,7 @@
 .box:hover 
 {
  
- box-shadow:2px 2px  2px 2px lightgreen;
+ box-shadow:2px 2px  2px 2px lightblue;
  background-color: #e6edda;
  
 
@@ -298,7 +298,7 @@
 .box:hover 
 {
  
- box-shadow:1px 1px  1px 1px lightgreen;
+ box-shadow:1px 1px  1px 1px lightblue;
  background-color: #e6edda;
  
 

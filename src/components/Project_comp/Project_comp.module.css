@@ -1,3 +1,5 @@
+@media  (prefers-color-scheme: light)
+{
 .videoodd,.videoeven
 {
 	width:70vh;
@@ -73,8 +75,8 @@ width:92%;
 	padding-bottom:4%;
 	margin-left:10%;
 }
-
-@media only screen and (max-width: 499px)
+}
+@media only screen and (max-width: 499px) and  (prefers-color-scheme: light)
 {
 
 .videoodd,.videoeven
@@ -99,6 +101,165 @@ width:92%;
    text-align:justify;
 	padding-top:10%;
 	padding-left:0%;
+}
+.videoodd
+{
+	margin-left:3%;
+	margin-top:3%;
+	display:inline;
+	float:left;
+}
+.videoodd:hover, .videoeven:hover
+{
+	box-shadow:4px 4px grey;
+}
+.videoeven
+{
+	
+	
+	margin-left:3%;
+	margin-top:3%;
+	display:inline;
+	float:left;
+	
+}
+.divodd,.diveven
+{
+
+
+font-family: "Dosis";
+width:50%;
+
+
+
+}
+.diveven
+{  
+clear:right;
+	
+	padding-bottom:4%;
+	margin-left:10%;
+
+
+}
+.divodd
+{
+	clear:right;
+	
+	padding-bottom:4%;
+	margin-left:10%;
+}
+}
+
+
+
+
+@media  (prefers-color-scheme: dark)
+{
+.videoodd,.videoeven
+{
+	width:70vh;
+	height:50vh;
+}
+.txt
+{
+	color:lightblue;
+    width:90%;
+   text-align:justify;
+	padding-top:10%;
+	padding-left:75%;
+
+}
+.comingsoon {
+ font-size:190%;
+
+}
+
+
+.txteven
+{
+    color:lightblue;
+	padding-top:6%;
+	width:44%;
+	padding-left:11%;
+	padding-right:0%;
+	margin-left:5%;
+	text-align: justify;
+}
+.videoodd
+{
+	margin-left:3%;
+	margin-top:3%;
+	display:inline;
+	float:left;
+}
+.videoodd:hover, .videoeven:hover
+{
+	box-shadow:4px 4px grey;
+}
+.videoeven
+{
+	
+	margin-top:3%;
+	display:inline-block;
+	float:right;
+	
+	
+}
+.divodd,.diveven
+{
+
+
+font-family: "Dosis";
+width:50%;
+
+
+
+}
+.diveven
+{  
+clear:left;
+
+margin-right:10%;
+width:92%;
+
+
+}
+.divodd
+{
+	clear:right;
+	
+	padding-bottom:4%;
+	margin-left:10%;
+}
+}
+@media only screen and (max-width: 499px) and  (prefers-color-scheme: dark)
+{
+
+.videoodd,.videoeven
+{
+	width:40vw;
+	height:20vh;
+	box-shadow:4px 4px grey;
+}
+.txt
+{   clear:left;
+    width:80vw;
+   text-align:justify;
+	padding-top:10%;
+	padding-left:0%;
+	color:lightblue;
+
+}
+.txteven
+{
+
+	clear:left;
+    width:80vw;
+   text-align:justify;
+	padding-top:10%;
+	padding-left:0%;
+	color:lightblue;
 }
 .videoodd
 {
