@@ -721,7 +721,7 @@ a:hover
 .header
 {
 	overflow-x:hide;
-	  
+	  color:#94a848;
 	  
 	background-color:#022230;
 	color:lightblue;
@@ -902,10 +902,10 @@ a:hover
 .header
 {
 	
-	
+	color:#94a848;
 	
 	background-color:#022230;
-	color:lightblue;
+	
 	
 font-family:"Reggae One";
 
