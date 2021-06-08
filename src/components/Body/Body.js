@@ -34,7 +34,16 @@ import random from '../../img/random3.png';
 import author from '../../img/author2.JPG';
 import Author from '../Author/Author';
 import { useHistory } from "react-router-dom";
-
+var message="";
+if(window.matchMedia('(prefers-color-scheme: light)').matches)
+{
+  message="This Device is in light mode. If you wish to  have dark and cooling UI, turn on dark mode";
+}
+else
+{
+  message="This Device is in dark mode. If you wish to  have lighter UI, turn off dark mode ";
+}
+setTimeout(function(){ alert(message); }, 12000);
 class Body extends Component
 {
 

@@ -24,6 +24,7 @@ ReactDOM.render(
   <Body onunload={()=>alert()} />
   <div className={styles.auth} >
   <Author />
+  
   </div>
   </div>
   ,
