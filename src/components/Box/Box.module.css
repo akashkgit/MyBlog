@@ -213,14 +213,14 @@
 
 .box:hover .txt
 {
-	color:darkgreen;
+	color:#94a848;
 	
 	
 }
 .box:hover 
 {
 	
-	color:blue;
+	color:darkblue;
    
 }
 
@@ -229,8 +229,8 @@
 .box:hover 
 {
  
- box-shadow:2px 2px  2px 2px lightblue;
- background-color: #e6edda;
+ box-shadow:3px 3px  20px 5px black;
+ background-color: #081c26;
  
 
 }
@@ -298,8 +298,8 @@
 .box:hover 
 {
  
- box-shadow:1px 1px  1px 1px lightblue;
- background-color: #e6edda;
+box-shadow:3px 3px  20px 6px black;
+ background-color: #124e69;
  
 
 }
@@ -359,9 +359,8 @@
 
 .box:hover 
 {
- 
- box-shadow:2px 2px  2px 2px lightblue;
- background-color: #e6edda;
+box-shadow:3px 3px  20px 6px black;
+ background-color: #124e69;
  
 
 }

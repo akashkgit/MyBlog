@@ -160,6 +160,7 @@ clear:right;
 {
 	width:70vh;
 	height:50vh;
+	box-shadow:3px 3px  10px 5px black;
 }
 .txt
 {
@@ -172,7 +173,7 @@ clear:right;
 }
 .comingsoon {
  font-size:190%;
-
+color:lightblue;
 }
 
 
@@ -195,7 +196,7 @@ clear:right;
 }
 .videoodd:hover, .videoeven:hover
 {
-	box-shadow:4px 4px grey;
+	box-shadow:3px 3px  20px 5px lightblue;
 }
 .videoeven
 {
@@ -235,12 +236,16 @@ width:92%;
 }
 @media only screen and (max-width: 499px) and  (prefers-color-scheme: dark)
 {
-
+.comingsoon {
+ font-size:190%;
+color:lightblue;
+}
 .videoodd,.videoeven
 {
 	width:40vw;
 	height:20vh;
-	box-shadow:4px 4px grey;
+	
+	box-shadow:3px 3px  20px 5px black;
 }
 .txt
 {   clear:left;
@@ -270,7 +275,7 @@ width:92%;
 }
 .videoodd:hover, .videoeven:hover
 {
-	box-shadow:4px 4px grey;
+	box-shadow:3px 3px  20px 5px lightblue;
 }
 .videoeven
 {

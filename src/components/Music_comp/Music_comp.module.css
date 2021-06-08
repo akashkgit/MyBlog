@@ -1,3 +1,5 @@
+@media  (prefers-color-scheme: light)
+{
 .videoodd,.videoeven
 {
 	width:60vh;
@@ -19,7 +21,8 @@
 	margin-top:3%;
 	
 }
-@media only screen and (max-width: 499px)
+}
+@media only screen and (max-width: 499px) and (prefers-color-scheme: light) 
 {
 
 .videoodd,.videoeven
@@ -36,6 +39,58 @@
 .videoodd:hover, .videoeven:hover
 {
 	box-shadow:4px 4px grey;
+}
+
+
+
+
+
+}
+
+
+
+@media  (prefers-color-scheme: dark)
+{
+.videoodd,.videoeven
+{
+	width:60vh;
+	box-shadow:3px 3px  20px 5px black;
+	height:40vh;
+}
+.videoodd
+{
+	margin-left:3%;
+	margin-top:3%;
+}
+.videoodd:hover, .videoeven:hover
+{
+	box-shadow:3px 3px  20px 5px lightblue;
+}
+.videoeven
+{
+	margin-left:3%;
+	margin-top:3%;
+	
+}
+}
+@media only screen and (max-width: 499px) and (prefers-color-scheme: dark) 
+{
+
+.videoodd,.videoeven
+{
+		width:40vw;
+	height:20vh;
+	box-shadow:3px 3px  20px 5px black;
+}
+.videoodd,.videoeven
+{
+	margin-left:33%;
+	display:block;
+	margin-top:5%;
+}
+.videoodd:hover, .videoeven:hover
+{
+	box-shadow:3px 3px  20px 5px lightblue;
 }
 
 

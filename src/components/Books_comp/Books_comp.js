@@ -56,15 +56,17 @@ const page1=()=>(
 	);
 	const page3=()=>(
 	<div id="page1" >
+  <center>
     <div className={styles.divoddtop} >
-	<h3 className={styles.comingsoon}>Comming soon!</h3>
+	<h3 className={styles.comingsoon}>Coming soon!</h3>
 	</div>
 	<div className={styles.diveventop} >
+  
    
 
 
 	</div>
-	
+	</center>
 
 
 

@@ -65,7 +65,7 @@ const Cts=()=>(
 	);
 const page2=()=>(
 	 <div className={styles.comingsoon}>
-         <center><p>Comming Soon!</p></center>
+         <center><p>Coming Soon!</p></center>
          </div>    
 
 

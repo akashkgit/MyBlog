@@ -160,7 +160,7 @@ text-align:justify;
 
 
 
-@media only screen and (min-width: 499px) and (prefers-color-scheme: light)
+@media only screen and (min-width: 499px) and (prefers-color-scheme: dark)
 {
 .headingodd,.headingeven
 {
@@ -175,9 +175,8 @@ color:white;
 
 .comingsoon {
  font-size:190%;
-
+color:lightblue;
 }
-
 
 .divoddtop
 {
@@ -225,14 +224,11 @@ text-align:left;
 	 margin-bottom:1%;
 	width:20%;
 	height:50%;
+box-shadow:3px 3px  20px 5px black;
 	float:left;
-	box-shadow:4px 4px grey;
+	
 }
 
-.comingsoon {
- font-size:190%;
-
-}
 .diveven
 {
 	margin-left:1%;
@@ -271,9 +267,8 @@ color:white;
 
 .comingsoon {
  font-size:190%;
-
+color:lightblue;
 }
-
 
 .divoddtop,.diveventop
 {
@@ -306,7 +301,8 @@ text-align:justify;
 	margin-right:2%;
 }
 .img
-{   box-shadow: 3px 3px grey;
+{
+	box-shadow:3px 3px  20px 5px black;
 	width:40vw;
 	height:30vh;
 }

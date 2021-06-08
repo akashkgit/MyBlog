@@ -355,14 +355,15 @@ right:0;
    5%{opacity: 1;filter:blur(33px);}
    
    20%{opacity: 0.5;filter:blur(0px);}
+
    
 
 }
 .unopeneddark
 {
 
-width:4%;
-height:7%;
+width:2%;
+height:4%;
 display:none;
 margin-left:1%;
 margin-top:2%;
@@ -373,7 +374,7 @@ animation-name:blink;
 animation-duration:3s;
 animation-iteration-count: 1;
 animation-direction: alternate;
-opacity: 0.9;
+opacity: 1;
 
 position:sticky;
 top:7%;
@@ -385,14 +386,14 @@ right:0;
 .opendark
 {
 
-width:4%;
-height:7%;
+width:2%;
+height:4%;
 display:none;
 margin-left:1%;
 margin-top:2%;
 margin-right:0%;
 float:left;
-opacity:0.9;
+opacity:1;
 
 position:sticky;
 top:7%;
@@ -470,14 +471,14 @@ right:0;
 .opendark
 {
 float:right;
-width:9vw;
-height:9vw;
+width:8vw;
+height:8vw;
 display:none;
 margin-right:2%;
 
 
 
-opacity:0.9;
+opacity:1;
 position:sticky;
 
 top:8%;
@@ -489,8 +490,8 @@ right:0;
 .unopeneddark
 {
 float:right;
-width:9vw;
-height:9vw;
+width:8vw;
+height:8vw;
 
 display:none;
 margin-right:2%;
@@ -499,7 +500,7 @@ animation-duration:3s;
 animation-iteration-count: 1;
 animation-direction:alternate;
 animation-fill-mode: forwards;
-opacity:0.9;
+opacity:1;
 
 
 
@@ -581,14 +582,14 @@ right:0;
 {
 	
 float:right;
-width:4vw;
-height:4vw;
+width:3vw;
+height:3vw;
 display:none;
 margin-right:5%;
 margin-top:2%;
 
 
-opacity:0.9;
+opacity:1;
 position:sticky;
 top:5%;
 left:0;
@@ -613,7 +614,7 @@ animation-iteration-count: 1;
 animation-direction:alternate;
 animation-fill-mode: forwards;
 
-opacity:0.9;
+opacity:1;
 
 position:sticky;
 top:5%;

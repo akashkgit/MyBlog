@@ -13,7 +13,7 @@ import  Books_comp from "../Books_comp/Books_comp";
 import  StickyNotes_comp from "../StickyNotes_comp/StickyNotes_comp";
 import { browserHistory } from 'react-router';
 import open from "../../img/open3.png";
-import opendark from "../../img/opendark5.png";
+import opendark from "../../img/opendark7.png";
 import {
   MemoryRouter as Router ,
   Switch,

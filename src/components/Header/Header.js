@@ -2,6 +2,7 @@
 import {Component} from 'react';
 import PropTypes from 'prop-types';
 import i from '../../img/phone.png';
+import idark from '../../img/phonedark2.png';
 import mail from '../../img/mail9.png';
 import indark from '../../img/linkedindark2.png';
 import ghdark from '../../img/ghdark3.png';
@@ -44,7 +45,7 @@ render()
 		 		
 		 		<div  className={styles.details}>
 		 		
-		 		<img src={i} className={styles.img   } alt="broker" /> +91 9962635508   
+		 		<img src={i} className={styles.img   } alt="broker" /> <img src={idark} className={styles.imgdark   } alt="broker" /> +91 9962635508   
 		 		<img src={mail} className={styles.img2}  alt="broker" /> akashkvit@gmail.com 
 		 		<a href="https://www.linkedin.com/in/i-am-akashkumar/" > <img src={in1} className={styles.inlight}  alt="broker" /> <img src={indark} className={styles.indark}  alt="broker" /> Akash Kumar </a>
 		 		
