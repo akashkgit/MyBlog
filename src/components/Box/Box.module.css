@@ -1,4 +1,4 @@
-@media only screen and (min-width: 800px){
+@media only screen and (min-width: 800px) and (prefers-color-scheme: light){
 .logos
 {
 	width:40%;
@@ -60,7 +60,7 @@
 
 
 }
-@media only screen and (max-width: 499px)
+@media only screen and (max-width: 499px) and (prefers-color-scheme: light)
 {
 
 .logos
@@ -125,7 +125,7 @@
 		font-family: "Dosis";
 }
 }
-@media only screen and (min-width: 500px) and ( max-width: 799px){
+@media only screen and (min-width: 500px) and ( max-width: 799px) and (prefers-color-scheme: light){
 .logos
 {
 	width:40%;
@@ -182,6 +182,205 @@
 	font-weight: bold;
 	font-size: 160%;
 	font-family: "Dosis";
+	
+	
+}
+
+
+}
+
+
+
+@media only screen and (min-width: 800px) and (prefers-color-scheme: dark){
+.logos
+{
+	width:40%;
+	height:40%;
+	
+}
+
+.box
+{
+
+	margin-left:6%;
+    width:20%;
+    padding:1%;
+
+   
+    display:inline-block;
+
+}
+
+.box:hover .txt
+{
+	color:darkgreen;
+	
+	
+}
+.box:hover 
+{
+	
+	color:blue;
+   
+}
+
+
+
+.box:hover 
+{
+ 
+ box-shadow:2px 2px  2px 2px lightgreen;
+ background-color: #e6edda;
+ 
+
+}
+
+.txt2
+{
+	color:lightblue;
+	text-align: center;
+	font-size: 110%;
+	font-family: "Dosis";
+	margin-top:1%;
+}
+.txt
+{
+	color:#94a848;
+	font-weight: bold;
+	font-size: 160%;
+	font-family: "Dosis";
+	margin-top:1%;
+	margin-bottom:1%;
+}
+
+
+}
+@media only screen and (max-width: 499px) and (prefers-color-scheme: dark)
+{
+
+.logos
+{
+	width:40%;
+	height:40%;
+	
+}
+
+.box
+{
+
+	
+    width:30%;
+    padding:1%;
+    margin-left:12vw;
+    margin-right:0%;
+    display:inline-block;
+
+   
+    
+
+}
+
+.box:hover .txt
+{
+	color:darkgreen;
+	
+	
+}
+.box:hover 
+{
+	
+	color:blue;
+   
+}
+
+
+
+.box:hover 
+{
+ 
+ box-shadow:1px 1px  1px 1px lightgreen;
+ background-color: #e6edda;
+ 
+
+}
+
+.txt2
+{
+	text-align: center;
+	font-size: 65%;
+	font-family: "Dosis";
+	margin-top:-10%;
+	color:lightblue;
+}
+.txt
+{
+	font-weight: bold;
+	color:#94a848;
+	
+	margin-left: 0%;
+	font-size: 90%;
+		font-family: "Dosis";
+}
+}
+@media only screen and (min-width: 500px) and ( max-width: 799px) and (prefers-color-scheme: dark){
+.logos
+{
+	width:40%;
+	height:40%;
+	
+}
+
+.box
+{
+    
+	margin-left:11vw;
+    width:30%;
+    padding:1%;
+
+   
+    display:inline-block;
+
+}
+
+.box:hover .txt
+{
+	color:darkgreen;
+	
+	
+}
+.box:hover 
+{
+	
+	color:blue;
+   
+}
+
+
+
+.box:hover 
+{
+ 
+ box-shadow:2px 2px  2px 2px lightblue;
+ background-color: #e6edda;
+ 
+
+}
+
+.txt2
+{
+	text-align: center;
+	font-size: 110%;
+	font-family: "Dosis";
+	margin-top:-10%;
+	color:lightblue;
+	
+}
+.txt
+{
+	font-weight: bold;
+	font-size: 160%;
+	font-family: "Dosis";
+	color:#94a848;
 	
 	
 }

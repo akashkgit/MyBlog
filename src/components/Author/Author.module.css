@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kaushan+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@media  (prefers-color-scheme: light)
+{
+
 .author
 {
 
@@ -50,7 +53,8 @@ padding-top:1%;
 
 	font-family: 'Pangolin';
 }
-@media only screen and (max-width: 799px)
+}
+@media only screen and (max-width: 799px) and (prefers-color-scheme: light)
 {
 
 .author
@@ -110,7 +114,7 @@ padding-top:2%;
 	margin-left:5%;
 }
 }
-@media only screen and (max-width: 499px)
+@media only screen and (max-width: 499px) and (prefers-color-scheme: light) 
 {
 
 .author
@@ -123,6 +127,180 @@ display:block;
 width:100%;
 background-color: #c5ddeb;
 color:black;
+display:block;
+
+padding-left:50%;
+margin-top:0%;
+
+font-size:120%;
+
+padding-left:100%;
+padding-right:3%;
+
+padding-bottom:1%;
+
+
+	min-width:100vw;
+	
+	
+}
+
+.authorimg
+{
+
+border-radius:5%;
+float:left;
+
+width:40%;
+height:10%;
+margin-left:10%;
+padding-top:2%;
+
+
+margin-top:7%;
+}
+.name
+{
+	margin-left:10%;
+}
+.authorwords
+{    margin-left:2%;
+     font-size:4vw;
+    width:45vw;
+    margin-bottom:0%;
+	padding-top:5%;
+	margin-top:0%;
+    
+    
+	font-family: 'Pangolin';
+}
+}
+
+@media  (prefers-color-scheme: dark)
+{
+
+.author
+{
+
+
+
+
+margin-top:2%;
+
+display:block;
+width:70%;
+height:50%; 
+background-color: #0b1a24;
+color:lightblue;
+display:block;
+width:100vw;
+padding-left:50%;
+margin-top:0%;
+padding:1%;
+font-size:120%;
+float:right   ;
+padding-bottom:1%;
+}
+
+.authorimg
+{
+
+border-radius:5%;
+float:right;
+
+width:10%;
+height:10%;
+padding-top:1%;
+
+
+
+}
+.name
+{
+	margin-left:4%;
+}
+.authorwords
+{   float:right;
+    width:70%;
+    margin-bottom:0%;
+	padding-top:5%;
+	margin-top:0%;
+
+	font-family: 'Pangolin';
+}
+}
+@media only screen and (max-width: 799px) and (prefers-color-scheme: dark)
+{
+
+.author
+{
+
+	margin-top:2%;
+
+display:block;
+
+width:100%;
+background-color: #0b1a24;
+color:lightblue;
+display:block;
+
+padding-left:50%;
+margin-top:0%;
+
+font-size:120%;
+
+padding-left:100%;
+padding-right:3%;
+
+padding-bottom:1%;
+
+
+	min-width:100vw;
+	
+	
+}
+
+.authorimg
+{
+
+border-radius:5%;
+float:left;
+
+width:20%;
+height:10%;
+margin-left:10%;
+padding-top:2%;
+
+
+
+}
+.authorwords
+{    margin-left:2%;
+    width:65vw;
+    margin-bottom:0%;
+	padding-top:5%;
+	margin-top:0%;
+    
+    
+	font-family: 'Pangolin';
+}
+.name
+{
+	margin-left:5%;
+}
+}
+@media only screen and (max-width: 499px) and (prefers-color-scheme: dark) 
+{
+
+.author
+{
+
+	margin-top:2%;
+
+display:block;
+
+width:100%;background-color: #0b1a24;
+color:lightblue;
 display:block;
 
 padding-left:50%;

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Reggae+One&display=swap');
-@media only screen and (min-width: 800px)
+@media only screen and (min-width: 800px) and (prefers-color-scheme: light)
 {
 .emoji
 {
@@ -20,10 +20,30 @@ a:hover
 
 	color:blue;
 }
+
+@keyframes head
+{
+
+0%{background-color:;}
+   30%{  background-color:#e5edd8;}
+   60%{  background-color:#dee8cf ;}
+   100%{  background-color:
+#dcedd5
+ ;}
+  
+
+}
+
+
+
+
 .header
 {
 	
-	
+  position:sticky;
+	animation-duration:5s;
+	animation-delay:10s;
+	animation-fill-mode: forwards;
 	
 		color:black;
 	background-color:white;
@@ -148,7 +168,7 @@ font-family:"Dosis";
 	
 }
 }
-@media only screen and (max-width: 499px)
+@media only screen and (max-width: 499px) and (prefers-color-scheme: light)
 {
 
 .emoji
@@ -175,8 +195,7 @@ a:hover
 	  
 	  
 	
-		color:black;
-	background-color:white;
+	
 font-family:"Reggae One";
     
 	margin-top:0%;
@@ -302,7 +321,7 @@ font-family:"Dosis";
     font-size:60%;
 }
 }
-@media (min-width:500px) and (max-width: 799px)
+@media (min-width:500px) and (max-width: 799px) and (prefers-color-scheme: light)
 {
 .emoji
 {
@@ -451,3 +470,530 @@ font-family:"Dosis";
 	
 }
 }
+
+
+@media only screen and (min-width: 800px) and (prefers-color-scheme: dark)
+{
+.emoji
+{
+
+width:5%;
+height:5%;
+}
+
+
+a,a:active
+{
+	text-decoration: none;
+	color:black;
+}
+a:hover
+{
+
+	color:blue;
+}
+
+.inlight
+{
+	display:none;
+}
+
+
+.header
+{
+		
+	
+	background-color:#022230;
+	color:pink;
+	
+  position:sticky;
+	animation-duration:5s;
+	animation-delay:10s;
+	animation-fill-mode: forwards;
+	
+	
+	
+font-family:"Reggae One";
+
+	margin-top:0%;
+	font-size: 160%;
+	
+
+	padding:1px;
+	
+}
+
+
+@keyframes two {
+0%{opacity: 0;}
+	10%{opacity: 0.1;}
+	20%{opacity: 0.2;}
+	30%{opacity: 0.3;}
+	40%{opacity: 0.4;}
+	50%{opacity: 0.5;}
+	60%{opacity: 0.6;}
+	70%{opacity: 0.7;}
+	80%{opacity: 0.8;}
+	90%{opacity: 0.9;}
+	100%{opacity: 1;}
+}
+.two{
+	
+
+  position: absolute;
+  left: 43.5%;
+  top: 0px;
+  animation-name: two;
+  animation-duration:4s;
+  animation-fill-mode: forwards;
+
+  
+
+
+}
+@keyframes onee {
+	100%{opacity: 0;}
+	90%{opacity: 0.2;}
+	60%{opacity: 0.8;}
+	70%{opacity: 0.5;}
+	80%{opacity: 0.3;}
+	50%{opacity: 1;}
+	25%{opacity: 1;}
+	0%{opacity: 1;}
+}
+
+.one{
+
+position:absolute;
+animation-name:onee;
+animation-duration:4s;
+animation-fill-mode: forwards;
+left:43.5%;
+
+
+
+
+}
+
+.indark,.img,.gitdark,.img2
+{
+
+
+	height:2.3%;
+	width:2.3%;
+}
+
+div .p
+{
+    margin:0%;
+    font-family:"Dosis";
+    font-size:70%;
+    
+
+
+}
+.indark,.img,.gitdark,.img2
+{
+	margin-left:2%;
+
+}
+.git
+{
+	display: none;
+}
+
+.quote
+{
+	position:absolute;
+	top:0px;
+	left:39vw;
+	opacity: 1;
+	animation-name: onee;
+	animation-fill-mode: forwards;
+	animation-duration:4s;
+	animation-delay:2s;
+font-family:"Dosis";
+    font-size:70%;
+}
+.ancestor
+{
+	position:relative;
+	
+
+}
+.details
+{
+	
+	animation-name: two;
+	top:0;
+    color:pink;
+	animation-fill-mode: forwards;
+	animation-duration:4s;
+	animation-delay:5s;	
+	opacity: 0;
+	font-family:"Dosis";
+    font-size:70%;
+    margin-left:28vw;
+	
+
+}
+.ancestor a:link
+{
+color:pink;
+}
+.ancestor a:active
+{
+color:pink;
+}
+.ancestor a:visited
+{
+color:pink;
+}
+
+}
+@media only screen and (max-width: 499px)  and (prefers-color-scheme: dark)
+{
+	.inlight
+	{
+		display: none;
+	}
+
+	.ancestor a:link
+{
+color:pink;
+}
+.ancestor a:active
+{
+color:pink;
+}
+.ancestor a:visited
+{
+color:pink;
+}
+
+.emoji
+{
+
+width:3vw;
+
+}
+
+
+a,a:active
+{
+	text-decoration: none;
+	color:black;
+}
+a:hover
+{
+
+	color:blue;
+}
+.header
+{
+	overflow-x:hide;
+	  
+	  
+	background-color:#022230;
+	color:pink;
+	
+	
+	
+font-family:"Reggae One";
+    
+	margin-top:0%;
+	font-size: 100%;
+	padding:1%;
+	
+}
+br
+
+{
+	display:none;
+}
+
+@keyframes two {
+0%{opacity: 0;}
+	10%{opacity: 0.1;}
+	20%{opacity: 0.2;}
+	30%{opacity: 0.3;}
+	40%{opacity: 0.4;}
+	50%{opacity: 0.5;}
+	60%{opacity: 0.6;}
+	70%{opacity: 0.7;}
+	80%{opacity: 0.8;}
+	90%{opacity: 0.9;}
+	100%{opacity: 1;}
+}
+.two{
+	
+
+  position: absolute;
+left:37vw;
+  top: 0vh;
+  animation-name: two;
+  animation-duration:4s;
+  animation-fill-mode: forwards;
+  width:35vw;
+
+  
+
+
+}
+@keyframes onee {
+	100%{opacity: 0;}
+	90%{opacity: 0.2;}
+	60%{opacity: 0.8;}
+	70%{opacity: 0.5;}
+	80%{opacity: 0.3;}
+	50%{opacity: 1;}
+	25%{opacity: 1;}
+	0%{opacity: 1;}
+}
+
+.one{
+position: absolute;
+animation-name:onee;
+animation-duration:4s;
+animation-fill-mode: forwards;
+left:37vw;
+width:45vw;
+top:0vh;
+
+
+
+
+}
+
+.img2,.img,.gitdark,.indark
+{
+
+
+	width:3vw;
+}
+
+div .p
+{
+    margin-left:0%;
+    font-family:"Dosis";
+    font-size:70%;
+    width:100vh;
+    
+
+
+}
+.git
+{
+	display: none;
+}
+.img2,.img,.gitdark,.indark
+{
+	margin-left:1%;
+
+}
+
+.quote
+{
+	position:absolute;
+	top:0px;
+	margin-left:26vw;
+	opacity: 1;
+	animation-name: onee;
+	animation-fill-mode: forwards;
+	animation-duration:4s;
+	animation-delay:2s;
+font-family:"Dosis";
+    font-size:70%;
+}
+.ancestor
+{
+	position:relative;
+	margin-top:5%;
+	margin-left:1vw;
+
+}
+.details
+{
+	
+	animation-name: two;
+    
+	animation-fill-mode: forwards;
+	animation-duration:4s;
+	animation-delay:5s;	
+	opacity: 0;
+	font-size:70vw;
+	margin-left:8vw;
+	padding:1px;
+	font-family:"Dosis";
+    font-size:60%;
+}
+}
+@media (min-width:500px) and (max-width: 799px) and (prefers-color-scheme: dark)
+{
+	.ancestor a:link
+{
+color:pink;
+}
+.ancestor a:active
+{
+color:pink;
+}
+.ancestor a:visited
+{
+color:pink;
+}
+.inlight,.git
+{
+	display: none;
+}
+
+.emoji
+{
+
+width:5%;
+height:5%;
+}
+
+
+a,a:active
+{
+	text-decoration: none;
+	color:black;
+}
+a:hover
+{
+
+	color:blue;
+}
+.header
+{
+	
+	
+	
+	background-color:#022230;
+	color:pink;
+	
+font-family:"Reggae One";
+
+	margin-top:0%;
+	font-size: 160%;
+	
+    width:100vw;
+	padding:1px;
+	
+}
+
+
+@keyframes two {
+0%{opacity: 0;}
+	10%{opacity: 0.1;}
+	20%{opacity: 0.2;}
+	30%{opacity: 0.3;}
+	40%{opacity: 0.4;}
+	50%{opacity: 0.5;}
+	60%{opacity: 0.6;}
+	70%{opacity: 0.7;}
+	80%{opacity: 0.8;}
+	90%{opacity: 0.9;}
+	100%{opacity: 1;}
+}
+.two{
+	
+
+  position: absolute;
+  left:40%;
+  top: 0px;
+  animation-name: two;
+  animation-duration:4s;
+  animation-fill-mode: forwards;
+
+  
+
+
+}
+@keyframes onee {
+	100%{opacity: 0;}
+	90%{opacity: 0.2;}
+	60%{opacity: 0.8;}
+	70%{opacity: 0.5;}
+	80%{opacity: 0.3;}
+	50%{opacity: 1;}
+	25%{opacity: 1;}
+	0%{opacity: 1;}
+}
+
+.one{
+
+position:absolute;
+animation-name:onee;
+animation-duration:4s;
+animation-fill-mode: forwards;
+left:40%;
+
+
+
+
+}
+
+.img2,.img,.gitdark,.indark
+{
+
+
+	height:2.3%;
+	width:2.3%;
+}
+
+div .p
+{
+    margin:0%;
+    font-family:"Dosis";
+    font-size:70%;
+    
+
+
+}
+.img2,.img,.gitdark,.indark
+{
+	margin-left:2%;
+
+}
+
+.quote
+{
+	position:absolute;
+	top:0px;
+	left:27vw;
+	opacity: 1;
+	animation-name: onee;
+	animation-fill-mode: forwards;
+	animation-duration:4s;
+	animation-delay:2s;
+font-family:"Dosis";
+    font-size:70%;
+}
+.ancestor
+{
+	position:relative;
+
+	
+
+}
+.details
+{
+	
+	animation-name: two;
+	top:0;
+    
+	animation-fill-mode: forwards;
+	animation-duration:4s;
+	animation-delay:5s;	
+	opacity: 0;
+	font-family:"Dosis";
+    font-size:70%;
+    margin-left:11vw;
+	
+}
+}
+
+
+

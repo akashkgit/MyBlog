@@ -1,4 +1,4 @@
-@media only screen and (min-width: 800px)
+@media only screen and (min-width: 800px) and (prefers-color-scheme: light)
 {
 
 .body
@@ -15,6 +15,7 @@
    	
 	
 }
+
 
 
 .boxed
@@ -101,11 +102,11 @@ right:0;
 }
 
 }
-@media only screen and (max-width: 499px)
+@media only screen and (max-width: 499px) and (prefers-color-scheme: light)
 {
 .body
 {
-	
+	box-shadow:10px 15px 15px  inset;
 	padding-top:1%;
     min-height:70vh;
     
@@ -203,7 +204,7 @@ right:0;
 	margin-left:22%;
 }
 }
-@media (min-width: 500px) and (max-width:799px)
+@media (min-width: 500px) and (max-width:799px) and (prefers-color-scheme: light)
 {
 .body
 {
@@ -228,7 +229,317 @@ right:0;
    20%{opacity: 0.5;filter:blur(0px);}
    
 
+} 
+
+.boxed
+{
+	width:65%;
+	height:10%;
+	
+
 }
+.last
+{
+	margin-left:22%;
+}
+.open
+{
+	
+float:right;
+width:4vw;
+height:4vw;
+display:none;
+margin-right:5%;
+margin-top:2%;
+
+
+opacity:0.3;
+position:sticky;
+top:5%;
+left:0;
+right:0;
+
+
+}
+
+.unopened
+{
+	
+float:right;
+width:4vw;
+height:4vw;
+display:none;
+margin-right:5%;
+margin-top:2%;
+
+animation-name:blink;
+animation-duration:3s;
+animation-iteration-count: 1;
+animation-direction:alternate;
+animation-fill-mode: forwards;
+
+opacity:0.5;
+
+position:sticky;
+top:5%;
+left:0;
+right:0;
+
+
+}
+
+.router
+{
+	margin-left:2%;
+}
+
+.expand
+{   display:none;
+	left:6vw;
+	display:none;
+	position:absolute;
+	margin-top:0%;
+	padding:0.3%;
+	font-size:100%;
+
+	
+}
+
+}
+
+@media only screen and (min-width: 800px) and  (prefers-color-scheme: dark)
+{
+
+.body
+{
+	
+	padding-top:1%;
+    min-height: 50vh;
+	color:black;
+	background-color:#021b26;
+	padding-bottom:1%;
+  
+
+   
+   	
+	
+}
+
+
+
+.boxed
+{
+	width:65%;
+	height:10%;
+	
+
+}
+@keyframes blink
+{
+   0%{opacity: 0;filter:blur(0px);}
+   5%{opacity: 1;filter:blur(33px);}
+   
+   20%{opacity: 0.5;filter:blur(0px);}
+   
+
+}
+.unopened
+{
+
+width:2%;
+height:5%;
+display:none;
+margin-left:1%;
+margin-top:2%;
+margin-right:0%;
+float:left;
+
+animation-name:blink;
+animation-duration:3s;
+animation-iteration-count: 1;
+animation-direction: alternate;
+opacity: 0.5;
+
+position:sticky;
+top:7%;
+left:0;
+right:0;
+
+
+}
+.open
+{
+
+width:2%;
+height:5%;
+display:none;
+margin-left:1%;
+margin-top:2%;
+margin-right:0%;
+float:left;
+opacity:0.5;
+position:sticky;
+top:7%;
+left:0;
+right:0;
+
+
+}
+
+.open:hover + p
+{
+	display:inline;
+	background-color:white;
+	opacity:0.6;
+	border:1px solid grey;
+}
+.router
+{
+	margin-left:10%;
+}
+
+.expand
+{   display:inline;
+	display:none;
+	position:absolute;
+	margin-top:0%;
+	padding:0.3%;
+	font-size:100%;
+
+
+	
+}
+
+}
+@media only screen and (max-width: 499px) and (prefers-color-scheme: dark)
+{
+.body
+{
+	
+	padding-top:1%;
+    min-height:70vh;
+    
+	color:black;
+	background-color:#021b26;
+	padding-bottom:1%;
+    width:100%;	
+    
+
+	margin-right:0%;
+	
+}
+
+.boxed
+{
+	width:65%;
+	height:10%;
+	
+
+}
+@keyframes blink
+{
+   0%{opacity: 0;filter:blur(0px);}
+   5%{opacity: 1;filter:blur(33px);}
+   
+   20%{opacity: 0.5;filter:blur(0px);}
+   
+
+}
+
+.open
+{
+float:right;
+width:5vw;
+height:5vw;
+display:none;
+margin-right:5%;
+
+
+
+opacity:0.5;
+position:sticky;
+
+top:8%;
+left:0;
+right:0;
+
+
+}
+.unopened
+{
+float:right;
+width:5vw;
+height:5vw;
+
+display:none;
+margin-right:5%;
+animation-name:blink;
+animation-duration:3s;
+animation-iteration-count: 1;
+animation-direction:alternate;
+animation-fill-mode: forwards;
+opacity:0.5;
+
+
+
+
+position:sticky;
+
+top:8%;
+left:0;
+right:0;
+
+
+}
+
+.router
+{
+	margin-left:2%;
+}
+
+.expand
+{   display:none;
+	left:6vw;
+	display:none;
+	position:absolute;
+	margin-top:0%;
+	padding:0.3%;
+	font-size:100%;
+
+	
+}
+.last
+{
+	margin-left:22%;
+}
+}
+@media (min-width: 500px) and (max-width:799px) and (prefers-color-scheme: dark)
+{
+.body
+{
+	
+	padding-top:1%;
+    min-height:70vh;
+    
+	color:black;
+	background-color:#021b26;
+	padding-bottom:1%;
+    width:100vw;
+    box-sizing: border-box;	
+    
+
+	margin-right:0%;
+	
+}
+@keyframes blink
+{
+   0%{opacity: 0;filter:blur(0px);}
+   5%{opacity: 1;filter:blur(33px);}
+   
+   20%{opacity: 0.5;filter:blur(0px);}
+   
+
+} 
 
 .boxed
 {
