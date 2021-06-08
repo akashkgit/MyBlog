@@ -724,7 +724,7 @@ a:hover
 	  color:#94a848;
 	  
 	background-color:#022230;
-	color:lightblue;
+	
 	
 	
 	
@@ -844,7 +844,7 @@ font-family:"Dosis";
 }
 .details
 {
-	
+	    color:lightblue;
 	animation-name: two;
     
 	animation-fill-mode: forwards;
@@ -1022,7 +1022,7 @@ font-family:"Dosis";
 	
 	animation-name: two;
 	top:0;
-    
+        color:lightblue;
 	animation-fill-mode: forwards;
 	animation-duration:4s;
 	animation-delay:5s;	
