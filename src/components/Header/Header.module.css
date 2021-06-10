@@ -539,7 +539,8 @@ a:hover
 	background-color:#022230;
 	color:#94a848;
 	
-  position:sticky;
+	
+
 	animation-duration:5s;
 	animation-delay:10s;
 	animation-fill-mode: forwards;
@@ -550,7 +551,7 @@ font-family:"Reggae One";
 
 	margin-top:0%;
 	font-size: 160%;
-	
+	width:100vw;
 
 	padding:1px;
 	
