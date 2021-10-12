@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "theblogapi",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "auththeblog9a2a6af6",
+      "Outputs.UserPoolId"
+    ]
+  }
+}

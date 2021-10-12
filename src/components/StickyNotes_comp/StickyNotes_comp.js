@@ -1,3 +1,4 @@
+import load from "../../img/load3.gif";
 import React from 'react';
 import PropTypes from 'prop-types';
 import Pageno from "../Pageno/Pageno";
@@ -32,14 +33,9 @@ const page1=()=>(
 	);
 
 const page2=()=>(
-	<div id="page1" >
-    <div className={styles.divoddtop} >
-	<Rest />
-	
-	
-	</div>
-	<div className={styles.diveventop} >
-    <Threads />
+	<div id="page1" className={styles.comingsoon} >
+    <img src={load} alt="Error" className={styles.i} />
+    <p className={styles.under}> Under Development. Explore other Routes or visit later!</p>
     
 
 
@@ -50,31 +46,19 @@ const page2=()=>(
 
 
 
-</div>
+
 
 	);
 	
 	const page3=()=>(
-	<div id="page1" >
-    <div className={styles.divoddtop} >
-	<Rest />
-	
-	
-	</div>
-	<div className={styles.diveventop} >
-    <Threads />
+	<div id="page1" className={styles.comingsoon} >
+    <img src={load} alt="Error" className={styles.i} />
+    <p className={styles.under}> Under Development. Explore other Routes or visit later!</p>
     
 
 
 	</div>
 	
-
-
-
-
-
-</div>
-
 	);
 	
 

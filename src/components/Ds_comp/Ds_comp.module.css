@@ -1,6 +1,44 @@
 
+@media only screen and (max-width: 499px) 
+{
 
 .Ds_comp {
+font-size:100%;
+color:#7da19a;
+
+}
+.i
+{   
+	padding-left:3vw;
+	float:left;
+	height: 40vh;
+	width:50vw;
+}
+.under
+{
+   
+padding-top:24%;
+
+}
+
+}
+@media only screen and (min-width: 500px)
+{ 
+.Ds_comp {
 font-size:190%;
-color:lightblue;
+color:#7da19a;
+
+}
+.i
+{   
+	padding-left:20vw;
+	float:left;
+}
+.under
+{
+   
+padding-top:9%;
+padding-left:1%;
+}
+
 }

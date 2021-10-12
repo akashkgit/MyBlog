@@ -1,3 +1,4 @@
+import { CookiesProvider } from "react-cookie";
 import React from 'react';
 import {Component} from 'react';
 import PropTypes from 'prop-types';
@@ -14,6 +15,7 @@ import  StickyNotes_comp from "../StickyNotes_comp/StickyNotes_comp";
 import { browserHistory } from 'react-router';
 import open from "../../img/open3.png";
 import opendark from "../../img/opendark7.png";
+import Comment from '../Comment/Comment';
 import {
   MemoryRouter as Router ,
   Switch,
@@ -23,6 +25,7 @@ import {
 
 import Box from '../Box/Box';
 import java from '../../img/java3.png';
+import fb from '../../img/fb.png';
 import c from '../../img/c.png';
 import python from '../../img/python3.png';
 import ds from '../../img/ds1.png';
@@ -33,30 +36,51 @@ import book from '../../img/book.png';
 import random from '../../img/random3.png';
 import author from '../../img/author2.JPG';
 import Author from '../Author/Author';
-import { useHistory } from "react-router-dom";
+
 var message="";
+if(!localStorage.getItem("visited"))
+{
+
 if(window.matchMedia('(prefers-color-scheme: light)').matches)
 {
-  message="This Device is in light mode. If you wish to  have dark and cooling UI, turn on dark mode";
+  message="This Device is in light mode. If you wish to  have dark and cooling UI, turn on dark mode. ";
 }
 else
 {
-  message="This Device is in dark mode. If you wish to  have lighter UI, turn off dark mode ";
+  message="This Device is in dark mode. If you wish to  have lighter UI, turn off dark mode.";
 }
 setTimeout(function(){ alert(message); }, 12000);
-class Body extends Component
+
+localStorage.setItem("visited","true");
+}
+setTimeout(fbk, 15000);
+function fbk()
 {
 
+ if(!localStorage.getItem("name"))
+  {
+ 
+ alert(" I request you to submit your feedback in the feedback box! ");
+}
+
+
+
+}
+
+
+class Body extends Component
+{
+  
  
   constructor(props)
   {
     super(props);
     this.hide=this.hide.bind(this);
+   
     this.state={opened:false};
     this.show=this.show.bind(this);
 
   }
-
  
 hide()
 {
@@ -69,6 +93,9 @@ document.getElementById("router_comp").style.display='block';
 
 
 }
+
+
+
  show()
 {
  this.setState((state)=>(this.state.opened=true));
@@ -80,6 +107,7 @@ else
  document.getElementById("openlight").style.display='none';
 document.getElementById("router_comp").style.display='none';
 }
+
 render(){
   return (
   <div className={styles.body}  id="body">
@@ -109,7 +137,8 @@ render(){
   
 
 <Link to="/python" onClick={this.hide}  ><Box src={python} txt="Python Bites"  txt2="This has some of the intruiging yet ambivalent python concepts that I have gone through and felt its worth taking a note"/></Link>
-<Link className={styles.last} to="/ds" onClick={this.hide}  ><Box src={ds} txt="My DS Engine"  txt2="Here, I jot down some of the Data Structure concepts for a quick glance!"/></Link>
+<Link  to="/ds" onClick={this.hide}  ><Box src={ds} txt="My DS Engine"  txt2="Here, I jot down some of the Data Structure concepts for a quick glance!"/></Link>
+<Link className={styles.last} to="/fb" onClick={this.hide}  ><Box src={fb} txt="Feedback"  txt2="I kindly request you to give your feedback for my blog regarding  UI, content et cetera. It would motivate me a lot."/></Link>
   
   
   
@@ -128,12 +157,12 @@ render(){
   <Route exact path="/music" component={Music_comp} />
   <Route exact path="/book" component={Books_comp} />
   <Route exact path="/stickynotes" component={StickyNotes_comp} />
-
+  
+  <Route exact path="/fb" component={Comment} />
+ 
 
   </div> 
  </Router>
-
-  
 
 
   </div>

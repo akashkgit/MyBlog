@@ -10,10 +10,7 @@ font-weight: bold;
 }
 
 
-.comingsoon {
- font-size:190%;
 
-}
 
 
 .divoddtop
@@ -66,10 +63,25 @@ text-align:left;
 	box-shadow:4px 4px grey;
 }
 
+
 .comingsoon {
- font-size:190%;
+font-size:190%;
+color:#7da19a;
 
 }
+.i
+{   
+	padding-left:20vw;
+	float:left;
+}
+.under
+{
+   
+padding-top:9%;
+padding-left:1%;
+}
+
+
 .diveven
 {
 	margin-left:1%;
@@ -106,9 +118,24 @@ font-weight: bold;
 
 
 .comingsoon {
- font-size:190%;
+font-size:100%;
+color:#7da19a;
 
 }
+.i
+{   
+	padding-left:3vw;
+	float:left;
+	height: 40vh;
+	width:50vw;
+}
+.under
+{
+   
+padding-top:24%;
+
+}
+
 
 
 .divoddtop,.diveventop
@@ -174,9 +201,22 @@ color:white;
 
 
 .comingsoon {
- font-size:190%;
-color:lightblue;
+font-size:190%;
+color:#7da19a;
+
 }
+.i
+{   
+	padding-left:20vw;
+	float:left;
+}
+.under
+{
+   
+padding-top:9%;
+padding-left:1%;
+}
+
 
 .divoddtop
 {
@@ -266,8 +306,22 @@ color:white;
 
 
 .comingsoon {
- font-size:190%;
-color:lightblue;
+font-size:100%;
+color:#7da19a;
+
+}
+.i
+{   
+	padding-left:3vw;
+	float:left;
+	height: 40vh;
+	width:50vw;
+}
+.under
+{
+   
+padding-top:24%;
+
 }
 
 .divoddtop,.diveventop

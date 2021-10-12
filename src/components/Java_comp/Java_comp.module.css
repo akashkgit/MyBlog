@@ -1,5 +1,23 @@
 @media only screen and (min-width: 499px) and (prefers-color-scheme: light)
 {
+	.comingsoon {
+font-size:190%;
+color:#7da19a;
+
+}
+.i
+{   
+	padding-left:20vw;
+	float:left;
+}
+.under
+{
+   
+padding-top:9%;
+padding-left:1%;
+}
+
+
 .headingodd,.headingeven
 {
 
@@ -20,10 +38,7 @@ margin-left:10%;
 
 
 }
-.comingsoon {
- font-size:1200%;
 
-}
 
 .img
 {
@@ -48,6 +63,25 @@ margin-left:10%;
 @media only screen and (max-width: 499px)  and (prefers-color-scheme: light)
 {
 
+
+.comingsoon {
+font-size:100%;
+color:#7da19a;
+
+}
+.i
+{   
+	padding-left:3vw;
+	float:left;
+	height: 40vh;
+	width:50vw;
+}
+.under
+{
+   
+padding-top:24%;
+
+}
 .headingodd,.headingeven
 {
 
@@ -101,6 +135,23 @@ margin-left:10%;
 
 @media only screen and (min-width: 499px) and (prefers-color-scheme: dark)
 {
+	.comingsoon {
+font-size:190%;
+color:#7da19a;
+
+}
+.i
+{   
+	padding-left:20vw;
+	float:left;
+}
+.under
+{
+   
+padding-top:9%;
+padding-left:1%;
+}
+
 .headingodd,.headingeven
 {
 
@@ -143,14 +194,30 @@ margin-left:10%;
 	clear:both;
 }
 
-.comingsoon {
- font-size:190%;
- color:lightblue;
 
-}
 }
 @media only screen and (max-width: 499px)  and (prefers-color-scheme: dark)
 {
+
+.comingsoon {
+font-size:100%;
+color:#7da19a;
+
+}
+.i
+{   
+	padding-left:3vw;
+	float:left;
+	height: 40vh;
+	width:50vw;
+}
+.under
+{
+   
+padding-top:24%;
+
+}
+
 
 .headingodd,.headingeven
 {
@@ -175,11 +242,7 @@ margin-left:10%;
 
 
 }
-.comingsoon {
- font-size:1200%;
- color:lightblue;
 
-}
 
 .img
 {	width:40vw;
@@ -195,9 +258,6 @@ margin-left:10%;
 	clear:both;
 }
 
-.comingsoon {
- font-size:190%;
 
-}
 
 }

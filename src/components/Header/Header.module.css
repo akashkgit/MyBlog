@@ -28,7 +28,7 @@ a:hover
 @keyframes head
 {
 
-0%{background-color:;}
+0%{background-color:#e5edd8;}
    30%{  background-color:#e5edd8;}
    60%{  background-color:#dee8cf ;}
    100%{  background-color:
@@ -47,26 +47,18 @@ a:hover
 .header
 {
 	
-  position:sticky;
-	animation-duration:5s;
-	animation-delay:10s;
-	animation-fill-mode: forwards;
-	
-		color:black;
-	
-	
-	
-
-	
-	
-	
+position:sticky;
+z-index:1;
+top:0px;
+ background-color: #7da19a;
+color:black;
 font-family:"Reggae One";
 
-	margin-top:0%;
-	font-size: 160%;
+margin-top:0%;
+font-size: 160%;
 	
-
-	padding:1px;
+padding:1px;
+box-shadow: 2px 2px 5px 1px grey;
 	
 }
 
@@ -215,10 +207,14 @@ a:hover
 	overflow-x:hide;
 	  
 	  
-	
+	position:sticky;
+z-index:1;
+top:0px;
 	
 font-family:"Reggae One";
-    
+    background-color: #7da19a;
+    box-shadow: 1px 1px 3px 1px grey;
+
 	margin-top:0%;
 	font-size: 100%;
 	padding:1%;
@@ -374,10 +370,12 @@ a:hover
 .header
 {
 	
-	
+	position:sticky;
+z-index:1;
+top:0px;
 	
 		color:black;
-	background-color:white;
+	background-color:#7da19a;
 	
 font-family:"Reggae One";
 

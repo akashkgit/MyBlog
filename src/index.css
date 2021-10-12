@@ -39,6 +39,7 @@ background-color:#f3f5f0;
 }
 .index
 {
+position: relative;
 
 animation-name:blury;
 animation-duration:2s;
@@ -100,4 +101,16 @@ body
 
 
 
+}
+
+
+
+
+
+.dark_author
+{
+
+background-color: #c5ddeb;
+color:black;
+	
 }

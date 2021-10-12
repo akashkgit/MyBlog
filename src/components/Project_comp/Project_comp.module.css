@@ -1,5 +1,22 @@
 @media  (prefers-color-scheme: light)
 {
+	.comingsoon {
+font-size:190%;
+color:#7da19a;
+
+}
+.i
+{   
+	padding-left:20vw;
+	float:left;
+}
+.under
+{
+   
+padding-top:9%;
+padding-left:1%;
+}
+
 .videoodd,.videoeven
 {
 	width:70vh;
@@ -13,10 +30,7 @@
 	padding-left:75%;
 
 }
-.comingsoon {
- font-size:190%;
 
-}
 
 
 .txteven
@@ -79,6 +93,24 @@ width:92%;
 @media only screen and (max-width: 499px) and  (prefers-color-scheme: light)
 {
 
+.comingsoon {
+font-size:100%;
+color:#7da19a;
+
+}
+.i
+{   
+	padding-left:3vw;
+	float:left;
+	height: 40vh;
+	width:50vw;
+}
+.under
+{
+   
+padding-top:24%;
+
+}
 .videoodd,.videoeven
 {
 	width:40vw;
@@ -172,10 +204,21 @@ clear:right;
 
 }
 .comingsoon {
- font-size:190%;
-color:lightblue;
-}
+font-size:190%;
+color:#7da19a;
 
+}
+.i
+{   
+	padding-left:20vw;
+	float:left;
+}
+.under
+{
+   
+padding-top:9%;
+padding-left:1%;
+}
 
 .txteven
 {
@@ -237,8 +280,22 @@ width:92%;
 @media only screen and (max-width: 499px) and  (prefers-color-scheme: dark)
 {
 .comingsoon {
- font-size:190%;
-color:lightblue;
+font-size:100%;
+color:#7da19a;
+
+}
+.i
+{   
+	padding-left:3vw;
+	float:left;
+	height: 40vh;
+	width:50vw;
+}
+.under
+{
+   
+padding-top:24%;
+
 }
 .videoodd,.videoeven
 {

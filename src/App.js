@@ -8,10 +8,27 @@ import Body from  './components/Body/Body';
 
 import {Component} from 'react';
 
+
+import awsconfig from './aws-exports';
+import  Amplify, { API, graphqlOperation } from 'aws-amplify';
+import { createTodo, updateTodo, deleteTodo } from './graphql/mutations';
+Amplify.configure(awsconfig);
+
+
 class App extends Component{
 
+   constructor()
+   {
+super();
+this.fetchData=this.fetchData.bind(this);
 
 
+   }
+  fetchData(data)
+  {
+
+  	alert(data);
+  }
   render()
   {
 
@@ -19,7 +36,7 @@ class App extends Component{
     return (
   <div>
   <Header />
-  
+ 
   <Body />
   
   </div> );

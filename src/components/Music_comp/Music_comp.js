@@ -16,6 +16,7 @@ const Page1=()=>(
  <iframe className={styles.videoodd} width="560" height="315" src="https://www.youtube.com/embed/jh2s4gFVm24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  <iframe   className={styles.videoeven} width="560" height="315" src="https://www.youtube.com/embed/7S6s227asEM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  <iframe  className={styles.videoodd} width="560" height="315" src="https://www.youtube.com/embed/wu2pPSWrBRM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560"  className={styles.videomid} height="315" src="https://www.youtube.com/embed/q33tC-VmRho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 );
 
@@ -29,6 +30,7 @@ const Page2=()=>(
 );
 const Page3=()=>(
        <div id="page3" >
+
  <iframe className={styles.videoodd} width="560" height="315" src="https://www.youtube.com/embed/ZmcSwsIR6LA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  <iframe className={styles.videoeven}  width="560" height="315" src="https://www.youtube.com/embed/-I6uY2X1ojo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  <iframe className={styles.videoodd} width="560" height="315" src="https://www.youtube.com/embed/Hq50ajghqOI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

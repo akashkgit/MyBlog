@@ -1,10 +1,15 @@
 @media  (prefers-color-scheme: light)
 {
-.videoodd,.videoeven
+.videoodd,.videoeven,.videomid
 {
 	width:60vh;
 	box-shadow:4px 4px grey;
 	height:40vh;
+}
+.videomid
+{
+	margin-left: 36vw;
+	margin-top: 4vh;
 }
 .videoodd
 {
@@ -25,7 +30,7 @@
 @media only screen and (max-width: 499px) and (prefers-color-scheme: light) 
 {
 
-.videoodd,.videoeven
+.videoodd,.videoeven,.videomid
 {
 		width:40vw;
 	height:20vh;
@@ -40,7 +45,11 @@
 {
 	box-shadow:4px 4px grey;
 }
-
+.videomid
+{
+	margin-left: 33%;
+	margin-top: 4vh;
+}
 
 
 
@@ -51,7 +60,7 @@
 
 @media  (prefers-color-scheme: dark)
 {
-.videoodd,.videoeven
+.videoodd,.videoeven,.videomid
 {
 	width:60vh;
 	box-shadow:3px 3px  20px 5px black;
@@ -61,6 +70,11 @@
 {
 	margin-left:3%;
 	margin-top:3%;
+}
+.videomid
+{
+	margin-left: 36vw;
+	margin-top: 4vh;
 }
 .videoodd:hover, .videoeven:hover
 {
@@ -76,7 +90,7 @@
 @media only screen and (max-width: 499px) and (prefers-color-scheme: dark) 
 {
 
-.videoodd,.videoeven
+.videoodd,.videoeven,.videomid
 {
 		width:40vw;
 	height:20vh;
@@ -87,6 +101,11 @@
 	margin-left:33%;
 	display:block;
 	margin-top:5%;
+}
+.videomid
+{
+	margin-left: 33%;
+	margin-top: 4vh;
 }
 .videoodd:hover, .videoeven:hover
 {

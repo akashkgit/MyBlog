@@ -1,0 +1,373 @@
+@media (prefers-color-scheme: light) and (min-width:800px)
+{
+.Comment {
+width:50vw;
+margin-left:15%;
+
+
+
+}
+
+.heading
+{  
+
+	font-family: "Dosis";
+	font-size: 250%;
+	font-weight: bold;
+
+}
+input 
+{
+	
+border:0px solid green;
+height:6vh;
+border-radius: 3px;
+opacity:0.7;
+width:15vw;
+margin-right:5%;
+margin-bottom:3%;
+background-color: #d8e0cc;
+font-family: "Dosis";
+}
+input::placeholder,textarea::placeholder
+{
+	padding-left:1vw;
+	font-family: "Dosis";
+}
+input:focus,textarea:focus
+{
+
+  outline: none;
+border:0px solid lightgreen;
+opacity:1;
+}
+textarea
+{ 
+	opacity:0.7;
+
+	border:0px solid green;
+	background-color: #d8e0cc;
+	margin-bottom:1%;
+	width:50vw;
+margin-bottom:3%;
+display:block;
+font-family: "Dosis";
+}
+}
+
+@media (prefers-color-scheme: light) and (max-width:498px)
+{
+.Comment {
+
+margin-left:15%;
+
+
+
+}
+.heading
+{
+	font-family: "Dosis";
+	font-size: 160%;
+	font-weight: bold;
+
+}
+input 
+{
+border:0px solid green;
+height:6vh;
+border-radius: 3px;
+opacity:0.7;
+width:30vw;
+margin-right:5%;
+margin-bottom:3%;
+background-color: #d8e0cc;
+font-family: "Dosis";
+}
+input::placeholder,textarea::placeholder
+{
+	padding-left:1vw;
+	font-family: "Dosis";
+}
+input:focus,textarea:focus
+{
+
+  outline: none;
+border:0px solid lightgreen;
+opacity:1;
+}
+textarea
+{
+	opacity:0.7;
+
+	border:0px solid green;
+	background-color: #d8e0cc;
+	margin-bottom:1%;
+	width:64vw;
+margin-bottom:3%;
+display:block;
+font-family: "Dosis";
+}
+}
+
+
+@media (prefers-color-scheme: light) and (max-width:799px) and (min-width:499px)
+{
+.Comment {
+width:56%;
+margin-left:15%;
+
+
+
+}
+.heading
+{
+	font-family: "Dosis";
+	font-size: 250%;
+	font-weight: bold;
+
+}
+input 
+{
+border:0px solid green;
+height:6vh;
+border-radius: 3px;
+opacity:0.7;
+width:15vw;
+margin-right:5%;
+margin-bottom:3%;
+background-color: #d8e0cc;
+font-family: "Dosis";
+}
+input::placeholder,textarea::placeholder
+{
+	padding-left:1vw;
+	font-family: "Dosis";
+}
+input:focus,textarea:focus
+{
+
+  outline: none;
+border:0px solid lightgreen;
+opacity:1;
+}
+textarea
+{
+	opacity:0.7;
+
+	border:0px solid green;
+	background-color: #d8e0cc;
+	margin-bottom:1%;
+	width:50vw;
+margin-bottom:3%;
+display:block;
+font-family: "Dosis";
+}
+}
+
+
+@media (prefers-color-scheme: dark) and (min-width:800px)
+{
+.Comment {
+width:50vw;
+margin-left:15%;
+
+
+
+}
+.heading
+{  color:#c1c2c9;
+	font-family: "Dosis";
+	font-size: 250%;
+	font-weight: bold;
+
+}
+input 
+{
+	font-size:110%;
+border:0px solid green;
+height:6vh;
+border-radius: 3px;
+opacity:0.7;
+width:15vw;
+margin-right:5%;
+margin-bottom:3%;
+
+font-family: "Dosis";
+color:lightblue;
+background-color: #093545;
+
+}
+input::placeholder,textarea::placeholder
+{  
+	color:lightblue;
+	text-decoration: unset;
+	padding-left:1vw;
+	font-family: "Dosis";
+	font-size:110%;
+}
+input:focus,textarea:focus
+{
+background-color: #093545;
+  outline: none;
+border:0px solid lightgreen;
+opacity:1;
+}
+input:hover,textarea:hover
+{
+	box-shadow:0px 1px 20px 6px black;
+}
+textarea
+{
+	font-size:110%;
+background-color: #093545;
+	color:lightblue;
+	opacity:0.7;
+
+	border:0px solid green;
+	
+	margin-bottom:1%;
+	width:50vw;
+margin-bottom:3%;
+display:block;
+font-family: "Dosis";
+}
+}
+@media (prefers-color-scheme: dark) and (max-width:799px) and (min-width:499px)
+{
+.Comment {
+width:50vw;
+margin-left:15%;
+
+
+
+}
+.heading
+{  color:#c1c2c9;
+	font-family: "Dosis";
+	font-size: 250%;
+	font-weight: bold;
+
+}
+input 
+{
+	font-size:110%;
+border:0px solid green;
+height:6vh;
+border-radius: 3px;
+opacity:0.7;
+width:15vw;
+margin-right:5%;
+margin-bottom:3%;
+
+font-family: "Dosis";
+color:lightblue;
+background-color: #093545;
+
+}
+input::placeholder,textarea::placeholder
+{  
+	color:lightblue;
+	text-decoration: unset;
+	padding-left:1vw;
+	font-family: "Dosis";
+	font-size:110%;
+}
+input:focus,textarea:focus
+{
+background-color: #093545;
+  outline: none;
+border:0px solid lightgreen;
+opacity:1;
+}
+input:hover,textarea:hover
+{
+	box-shadow:0px 1px 20px 6px black;
+}
+textarea
+{
+	font-size:110%;
+background-color: #093545;
+	color:lightblue;
+	opacity:0.7;
+
+	border:0px solid green;
+	
+	margin-bottom:1%;
+	width:50vw;
+margin-bottom:3%;
+display:block;
+font-family: "Dosis";
+}
+}
+
+
+
+@media (prefers-color-scheme: dark) and (max-width:498px)
+{
+.Comment {
+
+margin-left:15%;
+
+
+
+}
+.heading
+{  color:#c1c2c9;
+	font-family: "Dosis";
+	font-size: 250%;
+	font-weight: bold;
+
+}
+input 
+{
+	font-size:110%;
+border:0px solid green;
+height:6vh;
+border-radius: 3px;
+opacity:0.7;
+width:30vw;
+margin-right:5%;
+margin-bottom:3%;
+
+font-family: "Dosis";
+color:lightblue;
+background-color: #093545;
+
+}
+input::placeholder,textarea::placeholder
+{  
+	color:lightblue;
+	text-decoration: unset;
+	padding-left:1vw;
+	font-family: "Dosis";
+	font-size:110%;
+}
+input:focus,textarea:focus
+{
+background-color: #093545;
+  outline: none;
+border:0px solid lightgreen;
+opacity:1;
+}
+input:hover,textarea:hover
+{
+	box-shadow:0px 1px 20px 6px black;
+}
+textarea
+{
+	font-size:110%;
+background-color: #093545;
+	color:lightblue;
+	opacity:0.7;
+
+	border:0px solid green;
+	
+	margin-bottom:1%;
+	width:64vw;
+margin-bottom:3%;
+display:block;
+font-family: "Dosis";
+}
+}
+
+
