@@ -8,7 +8,7 @@ import styles from './Books_comp.module.css';
 import Pageno from "../Pageno/Pageno";
 import zero from "../../img/z212.jpg";
 import essentialism from "../../img/essent2.jpg";
-import load from "../../img/load3.gif";
+import load from "../../img/load17.gif";
 
 const Books_comp = () => (
   <div className={styles.Os_comp}>
@@ -58,8 +58,11 @@ const page1=()=>(
 	const page3=()=>(
 	
     <div className={styles.comingsoon} >
- <img src={load} alt="Error" className={styles.i} />
+ <center>
+    <img src={load} alt="Error" className={styles.i} />
+    
     <p className={styles.under}> Under Development. Explore other Routes or visit later!</p>
+    </center>
 	</div>
 
 

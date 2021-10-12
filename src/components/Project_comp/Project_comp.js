@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Project_comp.module.css';
 import Pageno from "../Pageno/Pageno";
-import load from "../../img/load3.gif";
+import load from "../../img/load17.gif";
 const Project_comp = () => (
   <div className={styles.project_comp}>
     <Pageno  homepage="/project" page1_comp={Page1} page2_comp={Page2} page3_comp={Page3}/> 
@@ -41,16 +41,23 @@ The rover's left and right movements are controlled by rotating left pair of whe
 
 const Page2=()=>(
          <div className={styles.comingsoon}>
-          <img src={load} alt="Error" className={styles.i} />
+         <center>
+    <img src={load} alt="Error" className={styles.i} />
+    
     <p className={styles.under}> Under Development. Explore other Routes or visit later!</p>
+    </center>
          </div>    
+    
 
 
 );
 const Page3=()=>(
   <div className={styles.comingsoon}>
-          <img src={load} alt="Error" className={styles.i} />
+          <center>
+    <img src={load} alt="Error" className={styles.i} />
+    
     <p className={styles.under}> Under Development. Explore other Routes or visit later!</p>
+    </center>
          </div>    
 
 

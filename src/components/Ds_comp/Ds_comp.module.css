@@ -3,22 +3,22 @@
 {
 
 .Ds_comp {
-font-size:100%;
+font-size:110%;
 color:#7da19a;
 
 }
 .i
 {   
-	padding-left:3vw;
-	float:left;
-	height: 40vh;
-	width:50vw;
+	height: 70%;
+	width:70%;
+	
+	
 }
 .under
 {
-   
-padding-top:24%;
+   padding-left:1.5vw;
 
+margin-top:5%;
 }
 
 }
@@ -31,14 +31,15 @@ color:#7da19a;
 }
 .i
 {   
-	padding-left:20vw;
-	float:left;
+	height: 20%;
+	width:20%;
+	
 }
 .under
 {
-   
-padding-top:9%;
-padding-left:1%;
+   padding-left:1.5vw;
+
+margin-top:0%;
 }
 
 }
