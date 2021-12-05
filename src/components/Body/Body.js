@@ -15,6 +15,8 @@ import  StickyNotes_comp from "../StickyNotes_comp/StickyNotes_comp";
 import { browserHistory } from 'react-router';
 import open from "../../img/open3.png";
 import opendark from "../../img/opendark7.png";
+import tp from "../../img/up6.png";
+import bm from "../../img/down7.png";
 import Comment from '../Comment/Comment';
 import {
   MemoryRouter as Router ,
@@ -36,6 +38,8 @@ import book from '../../img/book.png';
 import random from '../../img/random3.png';
 import author from '../../img/author2.JPG';
 import Author from '../Author/Author';
+import {contextt} from  "../../MyContext";
+import {colors} from "../../App"
 
 var message="";
 if(!localStorage.getItem("visited"))
@@ -78,12 +82,17 @@ class Body extends Component
     this.hide=this.hide.bind(this);
    
     this.state={opened:false};
+    this.top=React.createRef();
+    this.bottom=React.createRef();
     this.show=this.show.bind(this);
+    this.isOpened=false;
 
   }
  
 hide()
 {
+this.setState((state)=>{state.isOpened=!state.isOpened;return state;},(state)=>console.log("in hide",this.state.isOpened));
+console.log("in hide",this.state.isOpened);
 var dark=window.matchMedia('(prefers-color-scheme: dark)').matches;
 if(dark)document.getElementById("opendark").style.display='block';
 else document.getElementById("openlight").style.display='block';
@@ -97,8 +106,13 @@ document.getElementById("router_comp").style.display='block';
 
 
  show()
-{
+{ 
+  
+  this.setState((state)=>{state.isOpened=!state.isOpened;return state;},(state)=>console.log("in show",this.state.isOpened));
+  
  this.setState((state)=>(this.state.opened=true));
+console.log(this.state.isOpened);
+
   document.getElementById("router").style.display="block";
   var dark=window.matchMedia('(prefers-color-scheme: dark)').matches;
 
@@ -110,7 +124,10 @@ document.getElementById("router_comp").style.display='none';
 
 render(){
   return (
-  <div className={styles.body}  id="body">
+    <contextt.Consumer >
+
+    {(con)=>(
+  <div className={styles.body} style={{"background-color":colors[con.self.state.theme].body}} id="body">
 
 <img src={open}  onClick={this.show} className={this.state.opened?styles.openlight:styles.unopenedlight} id="openlight" alt="error"    />
 <img src={opendark}  onClick={this.show} className={this.state.opened?styles.opendark:styles.unopeneddark} id="opendark" alt="error"    />
@@ -118,8 +135,8 @@ render(){
  
 
 
-
-   <Router>
+<img src={tp} ref={this.top} alt="error" onClick={()=>{console.log("eneterd");this.bottom.current.scrollIntoView();}}   style={{display:this.state.isOpened?"inline":"none",opacity:"0.3",float:"right",height:"2%",width:"2%"}}/>
+   <Router style={{clear:"right"}}>
    <div id="router"  className={styles.router}>
   <br />
   <Link to="/os" onClick={this.hide} ><Box src={os}  txt="OS Overview" txt2="A click on this will open a list of interesting quick snippets of OS concepts. I ll walk through Threads,Process etc."/></Link>
@@ -144,9 +161,11 @@ render(){
   
   <br />
   <br />
-   
+  
  </div>
+
  <div id="router_comp" className={styles.router_comp} >
+ 
   <Route exact  path="/" />
   <Route exact path="/java" component={Java_comp} />
   <Route exact path="/c" component={C_comp} />
@@ -163,14 +182,16 @@ render(){
 
   </div> 
  </Router>
-
-
+<img src={bm} ref={this.bottom} alt="error" onClick={()=>{console.log("eneterd");this.top.current.scrollIntoView(); }}  style={{display:this.state.isOpened?"inline":"none",opacity:"0.3",float:"right",height:"2%",width:"2%"}}/> 
+ <p style={{clear:"right"}}> </p>
   </div>
+  )
+  }
 
 
 
 
-
+</contextt.Consumer >
 );
 }
 }

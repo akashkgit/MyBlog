@@ -10,7 +10,7 @@ import Body from  './components/Body/Body';
 import author from './img/author2.JPG';
 import Author from './components/Author/Author';
 import Comment from './components/Comment/Comment';
-
+import {createContext,useState} from 'react';
 import styles from  './index.css';
 import {
   BrowserRouter ,
@@ -29,29 +29,25 @@ const configuration: ConfigurationOptions = {
 
 AWS.config.update(configuration);
 
+
+
 // ENDS HERE
 function darkify()
 {
 
 }
+function Render(){
 
+ 
 ReactDOM.render(
   
-	<div className={styles.index} scroll="no">
-   <Header />
-  
-  <CookiesProvider>
-  <Body onload={()=>alert()} />
-  </CookiesProvider>
-  <div className={styles.auth} >
-  <Author  onclick={darkify()}/>
-  
-  </div>
- 
+	<div className={styles.index} scroll="no" >
+   <App />
   </div>
   ,
   document.getElementById('root')
 );
 
-
+}
+Render();
 
