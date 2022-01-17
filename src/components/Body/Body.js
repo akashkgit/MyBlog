@@ -1,8 +1,7 @@
-import { CookiesProvider } from "react-cookie";
 import React from 'react';
-import {Component} from 'react';
 import PropTypes from 'prop-types';
 import styles from './Body.module.css';
+<<<<<<< Updated upstream
 import  Java_comp from "../Java_comp/Java_comp";
 import  C_comp from "../C_comp/C_comp";
 import  Python_comp from "../Python_comp/Python_comp";
@@ -18,16 +17,18 @@ import opendark from "../../img/opendark7.png";
 import tp from "../../img/up6.png";
 import bm from "../../img/down7.png";
 import Comment from '../Comment/Comment';
+=======
+>>>>>>> Stashed changes
 import {
-  MemoryRouter as Router ,
+  BrowserRouter ,
   Switch,
   Route,
   Link
 } from "react-router-dom";
 
 import Box from '../Box/Box';
+import book_comp from '../Books_comp/Books_comp';
 import java from '../../img/java3.png';
-import fb from '../../img/fb.png';
 import c from '../../img/c.png';
 import python from '../../img/python3.png';
 import ds from '../../img/ds1.png';
@@ -38,6 +39,7 @@ import book from '../../img/book.png';
 import random from '../../img/random3.png';
 import author from '../../img/author2.JPG';
 import Author from '../Author/Author';
+<<<<<<< Updated upstream
 import {contextt} from  "../../MyContext";
 import {colors} from "../../App"
 
@@ -176,14 +178,43 @@ render(){
   <Route exact path="/music" component={Music_comp} />
   <Route exact path="/book" component={Books_comp} />
   <Route exact path="/stickynotes" component={StickyNotes_comp} />
+=======
+const Body = () => (
+  <div className={styles.body}  id="body">
+   
+  <link to="/java" ><Box  id="one" src={java} txt="Java notes" txt2="I dicuss about various important concepts in java that I have felt is quite baffling and significant to get a command over this"/></link>
+  <link to="/c" > <Box id="two" src={c} txt="C & C++ Notes" txt2="This has some of the intruiging yet ambivalent concepts that I have gone though and felt its worth taking a note"/></link>
+    <link to="/ds" > <Box src={ds} txt="My Data Structure Dictionary" txt2="This has some of the intruiging yet ambivalent concepts that I have gone though and felt its worth taking a note"/></link>
+  <link to="/os" > <Box src={os} txt="Operating System Overview" txt2="This has some of the intruiging yet ambivalent concepts that I have gone though and felt its worth taking a note"/></link>
+  <link to="/project" > <Box src={project} txt="Project Arena" txt2="This has some of the intruiging yet ambivalent concepts that I have gone though and felt its worth taking a note"/></link>
+  <link to="/music" > <Box src={music} txt="Music Hall" txt2="This has some of the intruiging yet ambivalent concepts that I have gone though and felt its worth taking a note"/></link>
+  <link to="/book" > <Box src={book} txt="The enlightment of Books" txt2="This has some of the intruiging yet ambivalent concepts that I have gone though and felt its worth taking a note"/></link>
+  <link to="/random" > <Box src={random} txt="Sticky notes" txt2="This has some of the intruiging yet ambivalent concepts that I have gone though and felt its worth taking a note"/></link>
+  <br />
+  <br />
+  <Route path="/java" component={java_comp} />
+  <Route path="/c" component={c_comp} />
+  <Route path="/ds" component={ds_comp} />
+  <Route path="/os" component={os_comp} />
+  <Route path="/project" component={project_comp} />
+  <Route path="/music" component={music_comp} />
+  <Route path="/book" component={book_comp} />
+  <Route path="/random" component={random_comp} />
+>>>>>>> Stashed changes
   
-  <Route exact path="/fb" component={Comment} />
- 
 
+<<<<<<< Updated upstream
   </div> 
  </Router>
 <img src={bm} ref={this.bottom} alt="error" onClick={()=>{console.log("eneterd");this.top.current.scrollIntoView(); }}  style={{display:this.state.isOpened?"inline":"none",opacity:"0.3",float:"right",height:"2%",width:"2%"}}/> 
  <p style={{clear:"right"}}> </p>
+=======
+  <div className={styles.auth} >
+  <Author />
+  </div>
+
+
+>>>>>>> Stashed changes
   </div>
   )
   }
@@ -193,8 +224,10 @@ render(){
 
 </contextt.Consumer >
 );
-}
-}
+
+Body.propTypes = {};
+
+Body.defaultProps = {};
 
 export default Body;
 
