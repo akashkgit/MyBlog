@@ -17,6 +17,7 @@ import {
   BrowserRouter as Router ,
   Switch,
   Route,
+  Routes,
   Link
 } from "react-router-dom";
 
@@ -96,6 +97,7 @@ render(){
    
  </div>
  <div id="router_comp" className={styles.router_comp} >
+  <Routes>
   <Route exact  path="/" />
   <Route exact path="/java" component={Java_comp} />
   <Route exact path="/c" component={C_comp} />
@@ -107,7 +109,7 @@ render(){
   <Route exact path="/book" component={Books_comp} />
   <Route exact path="/stickynotes" component={StickyNotes_comp} />
 
-
+  </Routes>
   </div> 
  </Router>
 
