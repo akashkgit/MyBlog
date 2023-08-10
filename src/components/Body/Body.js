@@ -19,6 +19,7 @@ import Comment from '../Comment/Comment';
 import {
   MemoryRouter as Router ,
   Switch,
+  Routes,
   Route,
   Link
 } from "react-router-dom";
@@ -147,20 +148,21 @@ render(){
    
  </div>
  <div id="router_comp" className={styles.router_comp} >
+ <Routes>
   <Route exact  path="/" />
-  <Route exact path="/java" component={Java_comp} />
-  <Route exact path="/c" component={C_comp} />
-  <Route exact path="/python" component={Python_comp} />
-  <Route exact path="/ds" component={Ds_comp} />
-  <Route exact path="/os" component={Os_comp} />
-  <Route exact path="/project" component={Project_comp} />
-  <Route exact path="/music" component={Music_comp} />
-  <Route exact path="/book" component={Books_comp} />
-  <Route exact path="/stickynotes" component={StickyNotes_comp} />
+  <Route exact path="/java" element={<Java_comp/>} />
+  <Route exact path="/c" element={C_comp} />
+  <Route exact path="/python" element={Python_comp} />
+  <Route exact path="/ds" element={Ds_comp} />
+  <Route exact path="/os" element={Os_comp} />
+  <Route exact path="/project" element={Project_comp} />
+  <Route exact path="/music" element={Music_comp} />
+  <Route exact path="/book" element={Books_comp} />
+  <Route exact path="/stickynotes" element={StickyNotes_comp} />
   
-  <Route exact path="/fb" component={Comment} />
+  <Route exact path="/fb" element={Comment} />
  
-
+</Routes>
   </div> 
  </Router>
 

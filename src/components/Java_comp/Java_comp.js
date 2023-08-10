@@ -3,13 +3,7 @@ import PropTypes from 'prop-types';
 import styles from './Java_comp.module.css';
 import code1 from "../../img/code1.png";
 import load from "../../img/load25.gif";
-import {
-  BrowserRouter as Router ,
-  Switch,
-  Route,
-  Link,
 
-} from "react-router-dom";
 import Pageno from "../Pageno/Pageno";
 const page1=()=>(
 	<div id="page1" >

@@ -9,10 +9,10 @@ import Body from  './components/Body/Body';
 import {Component} from 'react';
 
 
-import awsconfig from './aws-exports';
-import  Amplify, { API, graphqlOperation } from 'aws-amplify';
-import { createTodo, updateTodo, deleteTodo } from './graphql/mutations';
-Amplify.configure(awsconfig);
+// import awsconfig from './aws-exports';
+// import  Amplify, { API, graphqlOperation } from 'aws-amplify';
+// import { createTodo, updateTodo, deleteTodo } from './graphql/mutations';
+// Amplify.configure(awsconfig);
 
 
 class App extends Component{

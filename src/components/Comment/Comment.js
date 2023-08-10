@@ -3,34 +3,56 @@ import PropTypes from 'prop-types';
 import styles from './Comment.module.css';
 import { useCookies } from 'react-cookie';
 import { useHistory } from "react-router-dom";
-import { API, graphqlOperation } from 'aws-amplify';
+// import { API, graphqlOperation } from 'aws-amplify';
 
-import { createPost, updatePost, deletePost } from '../../graphql/mutations';
-function fetchData()
-{
+// import { createPost, updatePost, deletePost } from '../../graphql/mutations';
+// function fetchData()
+// {
   
-  const todo = { name: document.getElementById("name").value, 
-  title: document.getElementById("title").value ,
-  description:document.getElementById("description").value,
-   rating:document.getElementById("rating").value,
-   email:document.getElementById("email").value,
-   mobile:document.getElementById("mobile").value
+//   const todo = { name: document.getElementById("name").value, 
+//   title: document.getElementById("title").value ,
+//   description:document.getElementById("description").value,
+//    rating:document.getElementById("rating").value,
+//    email:document.getElementById("email").value,
+// import { API, graphqlOperation } from 'aws-amplify';
 
-};
+// import { createPost, updatePost, deletePost } from '../../graphql/mutations';
+// function fetchData()
+// {
+  
+//   const todo = { name: document.getElementById("name").value, 
+//   title: document.getElementById("title").value ,
+//   description:document.getElementById("description").value,
+//    rating:document.getElementById("rating").value,
+//    email:document.getElementById("email").value,
+// import { API, graphqlOperation } from 'aws-amplify';
 
-/* create a todo */
-   API.graphql(graphqlOperation(createPost, {input: todo}));
- alert("Thanks a lot for your submitting this form!I appreciate your effort !");
- localStorage.setItem("name",document.getElementById("name").value);
- document.getElementById("comnt").reset();
- window.location.href="https://akashkgit.github.io/MyBlog";
+// import { createPost, updatePost, deletePost } from '../../graphql/mutations';
+// function fetchData()
+// {
+  
+//   const todo = { name: document.getElementById("name").value, 
+//   title: document.getElementById("title").value ,
+//   description:document.getElementById("description").value,
+//    rating:document.getElementById("rating").value,
+//    email:document.getElementById("email").value,
+//    mobile:document.getElementById("mobile").value
+
+// };
+
+// /* create a todo */
+//    API.graphql(graphqlOperation(createPost, {input: todo}));
+//  alert("Thanks a lot for your submitting this form!I appreciate your effort !");
+//  localStorage.setItem("name",document.getElementById("name").value);
+//  document.getElementById("comnt").reset();
+//  window.location.href="https://akashkgit.github.io/MyBlog";
  
 
 
- //window.location.href="https://akashkgit.github.io/MyBlog/";
+//  //window.location.href="https://akashkgit.github.io/MyBlog/";
  
 
-}
+// }
 
 const Comment = () => {
 
@@ -46,7 +68,7 @@ const Comment = () => {
    return (
   <div className={styles.Comment}>
   <form id="comnt" >
-  <p className={styles.heading}>Feedback arena</p>
+  {/* <p className={styles.heading}>Feedback arena</p>
     <input type="text" id="name"   placeholder="your name" />
     <input type="text" id="email"   placeholder="your mailid" />
     <input type="text" id="mobile"   placeholder="your mobile" />
@@ -54,7 +76,7 @@ const Comment = () => {
     <textarea id="description" placeholder ="succintly brief your query"
    rows="10" cols="50" ></textarea>
    <input type="text" id="rating"  placeholder="rate out of 5" />
-   <input type="button" onClick={fetchData} value="Submit" />
+   <input type="button" onClick={fetchData} value="Submit" /> */}
    </form>
   </div>
 );
