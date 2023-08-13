@@ -5,6 +5,7 @@ import code1 from "../../img/code1.png";
 import load from "../../img/load25.gif";
 
 import Pageno from "../Pageno/Pageno";
+import { useLoaderData } from 'react-router';
 const page1=()=>(
 	<div id="page1" >
 
@@ -84,13 +85,15 @@ const page2=()=>(
 
 
 
-const Java_comp = () => (
-  <div className={styles.Java_comp}>
+const Java_comp = () => {
+  
+  
+  return <div className={styles.Java_comp}>
      
       <Pageno  homepage="/java" page1_comp={page1} page2_comp={page2} page3_comp={page3}/>
 
 
   </div>
-);
+};
 
 export default Java_comp;

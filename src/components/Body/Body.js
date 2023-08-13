@@ -17,7 +17,7 @@ import open from "../../img/open3.png";
 import opendark from "../../img/opendark7.png";
 import Comment from '../Comment/Comment';
 import {
-  MemoryRouter as Router ,
+  BrowserRouter as Router ,
   Switch,
   Routes,
   Route,
@@ -120,26 +120,26 @@ render(){
 
 
 
-   <Router>
+   <Router basename="/MyBlog">
    <div id="router"  className={styles.router}>
   <br />
-  <Link to="/os" onClick={this.hide} ><Box src={os}  txt="OS Overview" txt2="A click on this will open a list of interesting quick snippets of OS concepts. I ll walk through Threads,Process etc."/></Link>
+  <Link to="os" onClick={this.hide} ><Box src={os}  txt="OS Overview" txt2="A click on this will open a list of interesting quick snippets of OS concepts. I ll walk through Threads,Process etc."/></Link>
 
-  <Link to="/java" onClick={this.hide} ><Box  id="one"  src={java} txt="Java Scripts" txt2="I dicuss about various important concepts in java that I  felt are quite baffling and significant to get a proficient in java"/></Link>
+  <Link to="java" onClick={this.hide} ><Box  id="one"  src={java} txt="Java Scripts" txt2="I dicuss about various important concepts in java that I  felt are quite baffling and significant to get a proficient in java"/></Link>
   
 
-  <Link to="/project" onClick={this.hide}  ><Box src={project} txt="Project Arena" txt2="Open this arena to find the playlist of some of my project works in my college days. "/></Link>
-  <Link to="/music" onClick={this.hide} ><Box src={music} txt="Music Hall" txt2="Unlock this Hall to listen some of my musical plays that I do during my free time!"/></Link>
-  <Link to="/book" onClick={this.hide}  ><Box src={book}  txt="Enlightment from Books" txt2="Reading them is easy.But,putting them into practice is arduous! It tests our determination. "/></Link>  
+  <Link to="project" onClick={this.hide}  ><Box src={project} txt="Project Arena" txt2="Open this arena to find the playlist of some of my project works in my college days. "/></Link>
+  <Link to="music" onClick={this.hide} ><Box src={music} txt="Music Hall" txt2="Unlock this Hall to listen some of my musical plays that I do during my free time!"/></Link>
+  <Link to="book" onClick={this.hide}  ><Box src={book}  txt="Enlightment from Books" txt2="Reading them is easy.But,putting them into practice is arduous! It tests our determination. "/></Link>  
   
-  <Link to="/stickynotes" onClick={this.hide} ><Box src={random}  txt="Sticky notes" txt2="Unpin this to see some of my miscellanious notes that I have taken on the go."/></Link>
+  <Link to="stickynotes" onClick={this.hide} ><Box src={random}  txt="Sticky notes" txt2="Unpin this to see some of my miscellanious notes that I have taken on the go."/></Link>
 
-  <Link to="/c" onClick={this.hide} ><Box id="two" src={c} txt="C & C++ Notes" txt2="This has some of the intruiging yet ambivalent C& C++concepts that I have gone through and felt its worth taking a note"/></Link>
+  <Link to="c" onClick={this.hide} ><Box id="two" src={c} txt="C & C++ Notes" txt2="This has some of the intruiging yet ambivalent C& C++concepts that I have gone through and felt its worth taking a note"/></Link>
   
 
-<Link to="/python" onClick={this.hide}  ><Box src={python} txt="Python Bites"  txt2="This has some of the intruiging yet ambivalent python concepts that I have gone through and felt its worth taking a note"/></Link>
-<Link  to="/ds" onClick={this.hide}  ><Box src={ds} txt="My DS Engine"  txt2="Here, I jot down some of the Data Structure concepts for a quick glance!"/></Link>
-<Link className={styles.last} to="/fb" onClick={this.hide}  ><Box src={fb} txt="Feedback"  txt2="I kindly request you to give your feedback for my blog regarding  UI, content et cetera. It would motivate me a lot."/></Link>
+<Link to="python" onClick={this.hide}  ><Box src={python} txt="Python Bites"  txt2="This has some of the intruiging yet ambivalent python concepts that I have gone through and felt its worth taking a note"/></Link>
+<Link  to="ds" onClick={this.hide}  ><Box src={ds} txt="My DS Engine"  txt2="Here, I jot down some of the Data Structure concepts for a quick glance!"/></Link>
+<Link className={styles.last} to="fb" onClick={this.hide}  ><Box src={fb} txt="Feedback"  txt2="I kindly request you to give your feedback for my blog regarding  UI, content et cetera. It would motivate me a lot."/></Link>
   
   
   
@@ -150,17 +150,17 @@ render(){
  <div id="router_comp" className={styles.router_comp} >
  <Routes>
   <Route exact  path="/" />
-  <Route exact path="/java" element={<Java_comp/>} />
-  <Route exact path="/c" element={C_comp} />
-  <Route exact path="/python" element={Python_comp} />
-  <Route exact path="/ds" element={Ds_comp} />
-  <Route exact path="/os" element={Os_comp} />
-  <Route exact path="/project" element={Project_comp} />
-  <Route exact path="/music" element={Music_comp} />
-  <Route exact path="/book" element={Books_comp} />
-  <Route exact path="/stickynotes" element={StickyNotes_comp} />
+  <Route  loader={()=>"hello java"}path="java/*" element={<Java_comp/>} />
+  <Route  path="c" element={<C_comp />} />
+  <Route  path="python" element={<Python_comp />} />
+  <Route  path="ds" element={<Ds_comp />} />
+  <Route  path="os" element={<Os_comp />} />
+  <Route  path="project/*" element={<Project_comp />} />
+  <Route  path="music" element={<Music_comp />} />
+  <Route  path="book/*" element={<Books_comp />} />
+  <Route  path="stickynotes" element={<StickyNotes_comp />} />
   
-  <Route exact path="/fb" element={Comment} />
+  <Route  path="fb" element={<Comment />} />
  
 </Routes>
   </div> 

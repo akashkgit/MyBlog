@@ -37,7 +37,7 @@ function darkify()
 
 ReactDOM.render(
   
-	<div className={styles.index} scroll="no">
+	<div className={styles.index} scroll="no"> 
    <Header />
   
   <CookiesProvider>

@@ -3,35 +3,42 @@ import PropTypes from 'prop-types';
 import styles from './Pageno.module.css';
 
 import {
-  MemoryRouter as Router ,
+ BrowserRouter as Router ,
   Switch,
   Route,
+  Routes,
   Link,
 
 } from "react-router-dom";
 
-const Pageno = (props) => (
-  <div className={styles.Pageno}>
-   <Router>
-       <Route   path="/1" component={props.page1_comp} />
-       
-       
-       <Route   exact path="/" component={props.page1_comp} />
-       <Route path="/2" component={props.page2_comp} />
-       <Route path="/3" component={props.page3_comp} />
-       <div id="pagenodiv" className={styles.pagenodiv}>
-       <Link className={styles.pages} to="/1" >1</Link>
+const Pageno = (props) => {
+  let P1=props.page1_comp;
+  let P2=props.page2_comp;
+  let P3=props.page3_comp;
+  return  <div>
+     {/* className={styles.Pageno}> */}
+     
+   <Routes>
+       <Route >
+       <Route index  element={<P1 />} />
+       <Route  path="2" element={<P2 />} />
+       <Route path="3" element={<P3 />} />
+       </Route>
+       </Routes>
+       <div id="pagenodiv" >
+        {/* ClassName={styles.pagenodiv}> */}
+       <Link className={styles.pages} to="1" >1</Link>
         
         
-       <Link className={styles.pages} to="/2" >2</Link>
-       <Link className={styles.pages} to="/3" >3</Link>
+       <Link className={styles.pages} to="2" >2</Link>
+       <Link className={styles.pages} to="3" >3</Link>
         
       </div>
 
 
-       </Router>
+       
   </div>
-);
+};
 
 Pageno.propTypes = {};
 
